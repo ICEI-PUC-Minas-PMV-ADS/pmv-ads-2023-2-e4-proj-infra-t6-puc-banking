@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{EFCA1524-CB23-4B28-95EF-F1F647B2D865}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PUCBanking.Shared.Infrastructure", "Shared\SharedInfrastructure\PUCBanking.Shared.Infrastructure\PUCBanking.Shared.Infrastructure.csproj", "{07453478-072F-41A8-A287-0EC7FCEBC851}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CA466FCB-58E6-4F61-8C2E-CE7152161F74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PUCBanking.Shared.Kernel", "Shared\SharedKernel\PUCBanking.Shared.Kernel\PUCBanking.Shared.Kernel.csproj", "{95AC477D-CF69-417D-BC31-470AD86CA315}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PUCBanking.Shared.Infrastructure.UnitTests", "Tests\Shared\SharedInfrastructure\PUCBanking.Shared.Infrastructure.UnitTests\PUCBanking.Shared.Infrastructure.UnitTests.csproj", "{832B3CB0-FF0C-410A-B506-F7C0A64647AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PUCBanking.Shared.Kernel.UnitTests", "Tests\Shared\SharedKernel\PUCBanking.Shared.Kernel.UnitTests\PUCBanking.Shared.Kernel.UnitTests.csproj", "{3B7D5786-D9F0-43BB-BD92-446ED71350FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{8EA9A62E-9823-469F-9E65-295CC802BECA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{218A31C7-1499-47C8-9F22-D7BF6E0B7578}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E8D3E568-DE48-4033-8710-68DD259242B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PUCBanking.Identity.API", "Services\Identity\PUCBanking.Identity.API\PUCBanking.Identity.API.csproj", "{B5D7D811-99C3-4361-A024-3F68643C3A93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PUCBanking.Identity.UnitTests", "Tests\Services\Identity\PUCBanking.Identity.UnitTests\PUCBanking.Identity.UnitTests.csproj", "{BF88E40D-B755-4566-8C23-028C9ECE0C6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PUCBanking.Identity.IntegrationTests", "Tests\Services\Identity\PUCBanking.Identity.IntegrationTests\PUCBanking.Identity.IntegrationTests.csproj", "{BC9332F0-3A8D-4560-B0FB-F97D03FA977B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07453478-072F-41A8-A287-0EC7FCEBC851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07453478-072F-41A8-A287-0EC7FCEBC851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07453478-072F-41A8-A287-0EC7FCEBC851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07453478-072F-41A8-A287-0EC7FCEBC851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95AC477D-CF69-417D-BC31-470AD86CA315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95AC477D-CF69-417D-BC31-470AD86CA315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95AC477D-CF69-417D-BC31-470AD86CA315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95AC477D-CF69-417D-BC31-470AD86CA315}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832B3CB0-FF0C-410A-B506-F7C0A64647AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832B3CB0-FF0C-410A-B506-F7C0A64647AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832B3CB0-FF0C-410A-B506-F7C0A64647AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832B3CB0-FF0C-410A-B506-F7C0A64647AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B7D5786-D9F0-43BB-BD92-446ED71350FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B7D5786-D9F0-43BB-BD92-446ED71350FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B7D5786-D9F0-43BB-BD92-446ED71350FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B7D5786-D9F0-43BB-BD92-446ED71350FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5D7D811-99C3-4361-A024-3F68643C3A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D7D811-99C3-4361-A024-3F68643C3A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D7D811-99C3-4361-A024-3F68643C3A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D7D811-99C3-4361-A024-3F68643C3A93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF88E40D-B755-4566-8C23-028C9ECE0C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF88E40D-B755-4566-8C23-028C9ECE0C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF88E40D-B755-4566-8C23-028C9ECE0C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF88E40D-B755-4566-8C23-028C9ECE0C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC9332F0-3A8D-4560-B0FB-F97D03FA977B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9332F0-3A8D-4560-B0FB-F97D03FA977B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9332F0-3A8D-4560-B0FB-F97D03FA977B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9332F0-3A8D-4560-B0FB-F97D03FA977B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07453478-072F-41A8-A287-0EC7FCEBC851} = {EFCA1524-CB23-4B28-95EF-F1F647B2D865}
+		{CA466FCB-58E6-4F61-8C2E-CE7152161F74} = {EFCA1524-CB23-4B28-95EF-F1F647B2D865}
+		{95AC477D-CF69-417D-BC31-470AD86CA315} = {EFCA1524-CB23-4B28-95EF-F1F647B2D865}
+		{832B3CB0-FF0C-410A-B506-F7C0A64647AF} = {CA466FCB-58E6-4F61-8C2E-CE7152161F74}
+		{3B7D5786-D9F0-43BB-BD92-446ED71350FB} = {CA466FCB-58E6-4F61-8C2E-CE7152161F74}
+		{218A31C7-1499-47C8-9F22-D7BF6E0B7578} = {8EA9A62E-9823-469F-9E65-295CC802BECA}
+		{E8D3E568-DE48-4033-8710-68DD259242B9} = {218A31C7-1499-47C8-9F22-D7BF6E0B7578}
+		{B5D7D811-99C3-4361-A024-3F68643C3A93} = {218A31C7-1499-47C8-9F22-D7BF6E0B7578}
+		{BF88E40D-B755-4566-8C23-028C9ECE0C6C} = {E8D3E568-DE48-4033-8710-68DD259242B9}
+		{BC9332F0-3A8D-4560-B0FB-F97D03FA977B} = {E8D3E568-DE48-4033-8710-68DD259242B9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFD22571-6C91-4B14-9764-FB8C9DDB637B}
+	EndGlobalSection
+EndGlobal
