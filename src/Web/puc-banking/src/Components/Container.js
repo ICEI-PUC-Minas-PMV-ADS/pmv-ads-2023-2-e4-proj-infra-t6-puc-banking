@@ -1,5 +1,5 @@
 import React from 'react';
-import pucImg from '/Users/bruno.selas.oikos/Documents/projetos/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/src/Web/puc-banking/src/assets/PucImg.png';
+import pucImg from '.\assets\PucImg.png';
 
 export default function Container(props) {
     return (
