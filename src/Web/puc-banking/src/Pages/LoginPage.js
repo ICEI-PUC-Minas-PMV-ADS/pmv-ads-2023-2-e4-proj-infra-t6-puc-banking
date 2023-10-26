@@ -3,10 +3,7 @@ import Container from '../Components/Container';
 
 export default function LoginPage() {
     return (
-        <div style={{
-            display: 'flex',
-            flexDirection: 'column'
-        }}>
+        <div>
             <Container>
                 <h1>Login Page</h1>
             </Container>

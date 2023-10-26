@@ -1,5 +1,6 @@
 import React from 'react';
-import pucImg from '.\assets\PucImg.png';
+import PucImg from "../Img/PucImg.png";
+import "../style.css";
 
 export default function Container(props) {
     return (
@@ -8,17 +9,17 @@ export default function Container(props) {
                 <div className='wrap-login'>
                     <form className='login-form'>
                         <span className='login-form-title'>Bem Vindo!</span>
-                        <span className='login-form-login'>
-                            <img src={pucImg} alt='Logo Puc' />
+                        <span className='login-form-title'>
+                            <img src={PucImg} alt='Logo Puc' />
                         </span>
 
                         <div className='wrap-input'>
-                            <input type='email' />
+                            <input className='input' type='email' />
                             <span className='focus-input' data-placeholder='Email'></span>
                         </div>
 
                         <div className='wrap-input'>
-                            <input type='password' />
+                            <input className='input' type='password' />
                             <span className='focus-input' data-placeholder='Password'></span>
                         </div>
 
@@ -28,7 +29,7 @@ export default function Container(props) {
 
                         <div className='text-center'>
                             <span className='text1'>Não possui conta?</span>
-                            <a className='text2' href='#'>Criar Conta</a>
+                            <a className='text2' href='texto'>Criar Conta</a>
                         </div>
 
                     </form>
