@@ -1,6 +1,7 @@
 import React from 'react';
 // Components
 import { GrFormNext, GrFormPrevious } from 'react-icons/gr';
+import { FiSend } from "react-icons/fi";
 import RegisterUserForm from '../Components/RegisterUserForm';
 import RegisterCardForm from '../Components/RegisterCardForm';
 import RegisterThanks from '../Components/RegisterThanksForm';
@@ -11,7 +12,7 @@ import { useForm } from "../hooks/useForm";
 
 export default function RegisterPage() {
     const formComponents = [<RegisterUserForm />, <RegisterCardForm />, <RegisterThanks />]
-    const {currentStep, currentComponent} = useForm(formComponents)
+    const {currentStep, currentComponent, changeStep, isLastStep} = useForm(formComponents)
 
     return (
         <div className='app'>
@@ -21,17 +22,24 @@ export default function RegisterPage() {
             </div>
             <div className='form-container'>
                 <p>etapas</p>
-                <form>
+                <form onSubmit={(e) => changeStep(currentStep + 1, e)}>
                     <div className='inputs-container'>{currentComponent}</div>
                     <div className='actions'>
-                        <button type='button'>
+                        <button type='button' onClick={() => changeStep(currentStep -1)}>
                             <GrFormPrevious />
                             <span>Voltar</span>
                         </button>
-                        <button type='submit'>
+                        {!isLastStep ? (
+                            <button type='submit'>
                             <span>Avançar</span>
                             <GrFormNext />
                         </button>
+                        ) : (
+                            <button type='button'>
+                            <span>Cadastrar</span>
+                            <FiSend />
+                        </button>
+                        )}
                     </div>
                 </form>
             </div>
