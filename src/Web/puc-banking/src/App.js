@@ -1,4 +1,3 @@
-import './style.css';
 //import LoginPage from './Pages/LoginPage';
 import RegisterPage from './Pages/Register';
 
