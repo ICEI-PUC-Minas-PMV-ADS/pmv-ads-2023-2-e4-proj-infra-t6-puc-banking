@@ -1,10 +1,11 @@
 import './style.css';
-import LoginPage from './Pages/LoginPage';
+//import LoginPage from './Pages/LoginPage';
+import RegisterPage from './Pages/Register';
 
 function App() {
   return (
     <div className="App">
-      <LoginPage></LoginPage>
+      <RegisterPage></RegisterPage>
     </div>
   );
 }
