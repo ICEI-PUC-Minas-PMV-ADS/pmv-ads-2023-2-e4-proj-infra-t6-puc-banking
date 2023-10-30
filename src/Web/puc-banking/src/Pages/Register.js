@@ -5,6 +5,7 @@ import { FiSend } from "react-icons/fi";
 import RegisterUserForm from '../Components/RegisterUserForm';
 import RegisterCardForm from '../Components/RegisterCardForm';
 import RegisterThanks from '../Components/RegisterThanksForm';
+import '../RegisterPage.css'
 
 //Hoks
 import { useForm } from "../hooks/useForm";
