@@ -5,6 +5,7 @@ import { FiSend } from "react-icons/fi";
 import RegisterUserForm from '../Components/RegisterUserForm';
 import RegisterCardForm from '../Components/RegisterCardForm';
 import RegisterThanks from '../Components/RegisterThanksForm';
+import RegisterSteps from '../Components/RegisterSteps';
 import '../RegisterPage.css'
 
 //Hoks
@@ -13,7 +14,7 @@ import { useForm } from "../hooks/useForm";
 
 export default function RegisterPage() {
     const formComponents = [<RegisterUserForm />, <RegisterCardForm />, <RegisterThanks />]
-    const {currentStep, currentComponent, changeStep, isLastStep, isFirstSetp} = useForm(formComponents)
+    const { currentStep, currentComponent, changeStep, isLastStep, isFirstSetp } = useForm(formComponents)
 
     return (
         <div className='app'>
@@ -22,26 +23,26 @@ export default function RegisterPage() {
                 <p>Estamos a poucos passos de ter você conosco</p>
             </div>
             <div className='form-container'>
-                <p>etapas</p>
+                <RegisterSteps currentStep={currentStep} />
                 <form onSubmit={(e) => changeStep(currentStep + 1, e)}>
                     <div className='inputs-container'>{currentComponent}</div>
                     <div className='actions'>
                         {!isFirstSetp && (
-                            <button type='button' onClick={() => changeStep(currentStep -1)}>
-                            <GrFormPrevious />
-                            <span>Voltar</span>
-                        </button>
+                            <button type='button' onClick={() => changeStep(currentStep - 1)}>
+                                <GrFormPrevious />
+                                <span>Voltar</span>
+                            </button>
                         )}
                         {!isLastStep ? (
                             <button type='submit'>
-                            <span>Avançar</span>
-                            <GrFormNext />
-                        </button>
+                                <span>Avançar</span>
+                                <GrFormNext />
+                            </button>
                         ) : (
                             <button type='button'>
-                            <span>Cadastrar</span>
-                            <FiSend />
-                        </button>
+                                <span>Cadastrar</span>
+                                <FiSend />
+                            </button>
                         )}
                     </div>
                 </form>
