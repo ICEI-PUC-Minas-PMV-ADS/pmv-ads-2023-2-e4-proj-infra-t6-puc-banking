@@ -14,7 +14,7 @@ const RegisterUserForm = () => {
             </div>
             <div className="form-control">
                 <label htmlFor="e-mail">E-mail:</label>
-                <input type="text" name="cpf" id="cpf" placeholder="Digite seu e-mail" required></input>
+                <input type="text" name="email" id="email" placeholder="Digite seu e-mail" required></input>
             </div>
         </div>
     )

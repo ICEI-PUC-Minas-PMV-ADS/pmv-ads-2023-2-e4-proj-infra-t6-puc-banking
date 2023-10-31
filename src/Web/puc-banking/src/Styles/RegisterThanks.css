@@ -1,0 +1,13 @@
+.thanks-container{
+    text-align: center;
+}
+
+.thanks-container h2{
+    margin-bottom: 2rem;
+    
+}
+
+.thanks-container p{
+    font-size: .9;
+    margin-bottom: 0.5rem;
+}
