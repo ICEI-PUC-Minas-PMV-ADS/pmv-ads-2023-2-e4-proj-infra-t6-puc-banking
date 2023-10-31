@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import PucImg from "../Img/PucImg.png";
-import "../LoginForm.css";
+import "../Styles/LoginForm.css";
 
 export default function LoginForm(props) {
     const [email, setEmail] = useState("")

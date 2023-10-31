@@ -1,5 +1,5 @@
 import React from "react";
-import "../RegisterForm.css";
+import "../Styles/RegisterForm.css";
 
 const RegisterUserForm = () => {
     return (
@@ -11,6 +11,10 @@ const RegisterUserForm = () => {
             <div className="form-control">
                 <label htmlFor="Cpf">CPF:</label>
                 <input type="text" name="cpf" id="cpf" placeholder="Digite seu CPF" required></input>
+            </div>
+            <div className="form-control">
+                <label htmlFor="e-mail">E-mail:</label>
+                <input type="text" name="cpf" id="cpf" placeholder="Digite seu e-mail" required></input>
             </div>
         </div>
     )

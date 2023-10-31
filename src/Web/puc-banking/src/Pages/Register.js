@@ -6,7 +6,7 @@ import RegisterUserForm from '../Components/RegisterUserForm';
 import RegisterCardForm from '../Components/RegisterCardForm';
 import RegisterThanks from '../Components/RegisterThanksForm';
 import RegisterSteps from '../Components/RegisterSteps';
-import '../RegisterPage.css'
+import '../Styles/RegisterPage.css'
 
 //Hoks
 import { useForm } from "../hooks/useForm";

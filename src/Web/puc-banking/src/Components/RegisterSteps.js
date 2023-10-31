@@ -1,28 +1,25 @@
 import React from "react";
-import { AiOutLineUser, AioutLineStar } from "react-icons/ai";
+import { AiOutlineUser, AiOutlineStar } from "react-icons/ai";
 import { FiSend } from "react-icons/fi";
-import '../RegisterSteps.css'
+import '../Styles/RegisterSteps.css'
 
 
-const RegisterSteps = ({currentStep}) => {
+const RegisterSteps = ({ currentStep }) => {
     return (
-        <div className='steps'>Steps
-            <div className='step'>
+        <div className='steps'>
+            <div className='step active'>
+                <AiOutlineUser />
                 <p>Indentificação</p>
             </div>
-            <div className='steps'>Steps
-            <div className='step'>
+            <div className={`step ${currentStep >= 1 ? "active" : ""}`}>
+                <AiOutlineStar />
                 <p>Cartão</p>
             </div>
-        </div>
-        <div className='steps'>Steps
-            <div className='step'>
+            <div className={`step ${currentStep >= 2 ? "active" : ""}`}>
+                <FiSend />
                 <p>Envio</p>
             </div>
         </div>
-        </div>
-        
-        
-    )
+    );
 };
 export default RegisterSteps;
