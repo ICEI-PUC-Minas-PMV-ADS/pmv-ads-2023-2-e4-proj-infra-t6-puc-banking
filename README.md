@@ -1,27 +1,29 @@
-# TÍTULO DO PROJETO
+# PUC-BANKING
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Análise e Projeto de Sistemas de Software`
 
-`SEMESTRE`
+`4° Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Projeto voltado para a criação de um banco para cartão de crédito destinado a estudantes, tendo como seu objetivo principal um cartão da própria PUC.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-
+| [<img src="https://avatars.githubusercontent.com/u/82043220?v=4" width=115><br><sub>Raul Shinaede</sub>](https://github.com/RaulShinaede) | [<img src="https://avatars.githubusercontent.com/u/102563767?v=4" width=115><br><sub>Bruno Sellas</sub>](https://github.com/brunosellas) | [<img src="https://github.com/TulioFS.png" width=115><br><sub>Marco Túlio Félix Santiago</sub>](https://github.com/TulioFS)
+| :---: | :---: | :---: | :---: | :---: | :---: |
 ## Orientador
 
-* Nome completo do professor 1
+| [<img src="https://github.com/pedrofao.png" width=115><br><sub>Pedro Felipe Alves de Oliveira</sub>](https://github.com/pedrofao) |
+| :---: |
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+// TODO:
+
+- ✅ Como baixar
+- 📦 Como compilar
+- 🚀 Como executar 
 
 # Documentação
 
