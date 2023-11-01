@@ -6,12 +6,15 @@
 
 `4° Semestre`
 
+## Descrição
+
 Projeto voltado para a criação de um banco para cartão de crédito destinado a estudantes, tendo como seu objetivo principal um cartão da própria PUC.
 
 ## Integrantes
 
-| [<img src="https://avatars.githubusercontent.com/u/82043220?v=4" width=115><br><sub>Raul Shinaede</sub>](https://github.com/RaulShinaede) | [<img src="https://avatars.githubusercontent.com/u/102563767?v=4" width=115><br><sub>Bruno Sellas</sub>](https://github.com/brunosellas) | [<img src="https://github.com/TulioFS.png" width=115><br><sub>Marco Túlio Félix Santiago</sub>](https://github.com/TulioFS)
-| :---: | :---: | :---: | :---: | :---: | :---: |
+| .[<img src="https://avatars.githubusercontent.com/u/82043220?v=4" widht=115><br><sub>Raul Shinaede</sub>].
+| :---: |
+
 ## Orientador
 
 | [<img src="https://github.com/pedrofao.png" width=115><br><sub>Pedro Felipe Alves de Oliveira</sub>](https://github.com/pedrofao) |
