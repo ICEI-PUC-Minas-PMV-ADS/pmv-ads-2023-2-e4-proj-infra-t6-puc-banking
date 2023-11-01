@@ -1,15 +1,10 @@
 import React from 'react';
-import Container from '../Components/Container';
+import LoginForm from '../Components/LoginForm';
 
 export default function LoginPage() {
     return (
-        <div style={{
-            display: 'flex',
-            flexDirection: 'column'
-        }}>
-            <Container>
-                <h1>Login Page</h1>
-            </Container>
+        <div>
+            <LoginForm></LoginForm>
         </div>
     );
 }
