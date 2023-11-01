@@ -26,12 +26,28 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+<table> 
+<tr>
+ <td width="200" align="center"><strong>EU COMO... <code>PERSONA</code></strong>strong></td>
+ <td width="200" align="center"><strong>QUERO/PRECISO... <code>FUNCIONALIDADE</code></strong></td>
+ <td widtg="200" align="center"><strong>PARA ... <code>MOTIVO/VALOR</code></strong></td>
+</tr>
+<tr>
+ <td>Josepher Ferreira</td>
+ <td>Ter mais praticidade para gerir meus investimentos</td>
+ <td>Conquistar minha estabilidade financeira</td>
+</tr>
+<tr>
+ <td>Luana D'Avila</td>
+ <td>Ter um banco com mais flexibilidade e melhor acessibilidade</td>
+ <td>Organizar os meus gastos mensais</td>
+</tr>
+<tr>
+ <td>Régis Passos</td>
+ <td>Abrir minha primeira conta bancária</td>
+ <td>Coordenar meu primeiro salário recebido</td>
+</tr> 
+</table>
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
