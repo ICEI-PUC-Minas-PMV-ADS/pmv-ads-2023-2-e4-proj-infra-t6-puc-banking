@@ -1,28 +1,24 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A metodologia contempla as definições de ferramentas utilizadas pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto
 
 ## Relação de Ambientes de Trabalho
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso. 
-Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+| Ambiente | Plataforma | Link de acesso | 
+| -------- | ---------- | -------------- | 
+| Repositório de código fonte | GitHub | [Repositório PUC-BANKING](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking) |
+| Documento do Projeto | GitHub | [Documentação GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/tree/main/docs) | 
+| Projeto de Interface e Wireframes | Figma |  |
+| Gerenciamento do Projeto | GitHub | [Gerenciamento GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/projects?query=is%3Aopen) | 
 
 ## Controle de Versão
 
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
-
 O projeto segue a seguinte convenção para o nome de branches:
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
-
+- `main`: Versão final do software já testada
+- `develop`: versão de desenvolvimento de software
+  
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
@@ -30,33 +26,17 @@ etiquetas:
 - `bug`: uma funcionalidade encontra-se com problemas
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
-
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Microfundamento: Gerência de Configuração](https://pucminas.instructure.com/courses/87878/)
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
-
+- 
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
 
-Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Felipe Domingos;
-- Product Owner: Rommel Carneiro;
-- Equipe de Desenvolvimento: Pedro Penna, Pedro Ivo, Rodrigo Richard;
-- Equipe de Design: Simone Nogueira.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
+- Scrum Master: Bruno Sellas;
+- Product Owner: Raul Oliveira;
+- Equipe de Desenvolvimento: Marco Túlio Félix, Bruno Sellas, Raul Oliveira.
+- Equipe de Design: Raul Oliveira
 
 ### Processo
 
@@ -74,14 +54,9 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- Editor de código: Visual Studio Code
+- Ferramentas de comunicação: Microsoft Teams
+- Ferramentas de desenho de tela (_wireframing_): Figma
+- Ferramentas de gerenciamento do projeto: GitHub
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+O Visual Studio Code foi escolhido porque ele possui uma integração com o sistema de versão e seu suporte ao desenvolvimento com react. O Teams foi escolhido como ferramenta de comunicação por ser mais prática. Para criar diagramas utilizamos o Figma por melhor captar as necessidades da nossa solução. Por fim, para gerenciar o projeto foi escolhido o Github, por sua integração com o sistema de versão.
