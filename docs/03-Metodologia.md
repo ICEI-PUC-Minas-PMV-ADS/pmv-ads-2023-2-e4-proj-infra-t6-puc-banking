@@ -9,7 +9,7 @@ A metodologia contempla as definições de ferramentas utilizadas pela equipe ta
 | -------- | ---------- | -------------- | 
 | Repositório de código fonte | GitHub | [Repositório PUC-BANKING](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking) |
 | Documento do Projeto | GitHub | [Documentação GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/tree/main/docs) | 
-| Projeto de Interface e Wireframes | Figma |  |
+| Projeto de Interface e Wireframes | Figma | [Figma](https://www.figma.com/file/bdnY4n9wgtmjcbUnjkn6yY/PUC-Banking---01?type=design&node-id=0-1&mode=design) |
 | Gerenciamento do Projeto | GitHub | [Gerenciamento GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/projects?query=is%3Aopen) | 
 
 ## Controle de Versão
