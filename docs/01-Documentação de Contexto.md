@@ -1,25 +1,32 @@
 # Introdução
 
-Temos visto nestes dias, o aumento significativo do investimento na área comercial virtual, principalmente na parte bancária, na qual conseguimos avaliar o alto índice de novos bancos criados, destinados para o uso 100% virtual do seu investimento (salário). 
-
-Sendo assim, trouxemos como forma de crescimento horizontal, projetando o aumento significativo da exposição da instituição PUC MINAS a criação de um sistema bancário próprio. Tendo como clientes os seus estudantes durante o período de inserção ao ensino e pós, dando continuidade ao uso do banco.
+Nos últimos anos, o avanço tecnológico tem revolucionado diversos setores da sociedade, incluindo o sistema financeiro. Nesse contexto, surge o PucBanking, um banco digital especialmente projetado para atender às necessidades específicas dos estudantes da universidade. Esse sistema inovador visa proporcionar uma experiência bancária mais acessível, eficiente e adaptada às demandas únicas desse público-alvo.
 
 ## Problema
 
-O processo bancário virtual tem tido um alto consumo nos últimos anos, visto que a pandemia interrompeu o acesso físico as agências bancárias. Com isso, diversos bancos precisaram desenvolver o seu lado virtual sem terem tempo hábil para construir um aplicativo hábil, rentável e operacional, que não gerasse dificuldade para o consumo do cliente. Sendo assim, passamos a perceber diversos problemas, seja durante o acesso prolongado ao aplicativo, ou na dificuldade mediante atrasos no atendimento, ou até mesmo em períodos instáveis do próprio app, que impediam transações financeiras em um determinado período. 
+Apesar dos avanços no setor financeiro, muitos estudantes universitários enfrentam desafios ao lidar com serviços bancários tradicionais. A complexidade burocrática, as taxas elevadas e a falta de produtos financeiros adequados às suas realidades são alguns dos obstáculos enfrentados. O PucBanking surge como uma solução para superar essas barreiras, oferecendo serviços bancários mais transparentes, acessíveis e alinhados com as necessidades específicas dos estudantes.
 
 ## Objetivos
 
-O principal objetivo deste sistema bancário é proporcionar aos usuários a comodidade de gerir seus investimentos, pagamentos, dúvidas e necessidades de maneira rápida, segura e prática. 
+O PucBanking tem como objetivos principais:
 
-Além disso, buscamos oferecer aos estudantes da PUC MINAS, promoções, descontos e sorteios para compras. 
+- **Facilitar o Acesso Financeiro**: Proporcionar aos estudantes da universidade um acesso simplificado a serviços bancários, eliminando procedimentos complexos e burocráticos.
+
+- **Minimizar Custos**: Reduzir as taxas e tarifas bancárias, tornando os serviços financeiros mais acessíveis para os estudantes, muitos dos quais possuem orçamentos limitados.
+
+- **Oferecer Produtos Específicos**: Desenvolver produtos financeiros adaptados às necessidades dos estudantes, como linhas de crédito estudantil, planejamento financeiro para o período acadêmico, entre outros.
+
+- **Promover Educação Financeira**: Integrar funcionalidades que incentivem a educação financeira, ajudando os estudantes a desenvolverem hábitos saudáveis de gestão de dinheiro desde cedo.
 
 ## Justificativa
 
-A implementação de um novo sistema bancário no mercado comercial existente, exige trabalho de forma impecável, devido a alta competição entre bancos já estáveis nos dias de hoje. Sendo assim, o PUC-BANKING chega com nova metodologia, tendo em vista os pontos negativos retratados nos outros bancos e possibilidades de melhorias projetados. 
+Segundo uma pesquisa feita pelo **Instituto Semesp**, que entrevistou quase 2 mil estudantes, 70% deles disseram que não têm condições financeiras de pagar uma faculdade sem acesso a programas federais ou bolsas de estudo.
+> https://g1.globo.com/jornal-nacional/noticia/2023/05/19/dificuldades-financeiras-afastam-o-brasil-da-meta-de-alunos-em-curso-superior.ghtml
 
-Temos o desejo de construir um sistema hábil, prático, seguro e duradouro, tendo em vista a insatisfação dos clientes com as lentidões, quedas de sistema e dificuldades durante as transações. Sendo assim, desejamos aprimorar o mercado bancário e trazer evolução na aplicação móvel, para que os clientes tenham uma experiência totalmente imersiva e satisfeita. 
+A criação do PucBanking foi incentivada pela necessidade de fornecer uma alternativa bancária mais amigável e adaptada às características peculiares dos estudantes universitários. Ao abordar os desafios específicos enfrentados por esse público, o sistema visa melhorar sua experiência financeira, permitindo-lhes concentrar-se em seus estudos sem as preocupações típicas relacionadas a questões bancárias.
+
+Além disso, a implantação do PucBanking contribuirá para o desenvolvimento de uma cultura financeira mais sólida entre os estudantes, preparando-os para desafios futuros e incentivando práticas responsáveis de gerenciamento financeiro desde o início de suas trajetórias acadêmicas.
 
 ## Público-Alvo
 
-O publico-alvo deste sistema abrange desde jovens que estão entrando no mercado de trabalho até adultos/idosos que desejam uma nova experiência para seus gastos e gestão de suas finanças. 
+O público-alvo do PucBanking são os estudantes universitários vinculados à universidade PUC, abrangendo graduandos e pós-graduandos. Essa iniciativa visa atender tanto aqueles que estão ingressando na vida universitária quanto aqueles que já estão imersos nesse ambiente, adaptando-se às diferentes demandas financeiras ao longo de seus cursos. A faixa etária, as características específicas de renda e as necessidades educacionais dos estudantes serão consideradas para personalizar os serviços oferecidos pelo PucBanking.
