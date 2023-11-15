@@ -24,7 +24,7 @@ A metodologia contempla as definições de ferramentas utilizadas pela equipe ta
   <tr>
     <td>Gerenciamento do Projeto</td>
     <td>GitHub</td>
-    <td><a href="">Gerenciamento</a></td>
+    <td><a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/738/views/1">Gerenciamento</a></td>
   <tr>
     <td>Projeto de Interface e Wireframes</td>
     <td>Figma</td>
@@ -121,20 +121,29 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizandoo GitHub, estruturado com as seguintes listas:
 
-- **Backlog**: Todas as tarefas identificadas no decorrer do projeto são incorporadas a está lista.
-- **Sprint Backlog**: As tarefas que seram desenvolvidas na sprint são movidas para está lista.
-- **In Progress**: As tarefas iniciadas são movidas para está lista.
-- **Done**: As tarefas finalizadas são movidas para está lista.
+**📋 Backlog**:  
+🔹 Todas as tarefas identificadas no decorrer do projeto são incorporadas a está lista.  
+ 
+**🔜 Sprint Backlog**:  
+🔹 As tarefas que seram desenvolvidas na sprint são movidas para está lista.  
+ 
+**🏗  In Progress**:  
+🔹 As tarefas iniciadas são movidas para está lista.  
+ 
+**✅ Done**:  
+🔹 As tarefas finalizadas são movidas para está lista.  
 
-O quadro kanban do projeto está disponível no link: [Project PUCBanking]() e é apresentado, no estado atual, na figura abaixo:
+O quadro kanban do projeto está disponível no link: [Project PUCBanking](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/738/views/1) e é apresentado, no estado atual, na figura abaixo:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/82043220/f7f0eedd-bfdf-43ee-bbc7-824e812cc3b4)
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código: Visual Studio Code
-- Ferramentas de comunicação: Microsoft Teams
-- Ferramentas de desenho de tela (_wireframing_): Figma
-- Ferramentas de gerenciamento do projeto: GitHub
+- **Editor de código**: [Visual Studio Code](https://code.visualstudio.com/)
+- **Ferramentas de comunicação**: [Microsoft Teams](https://www.microsoft.com/pt-br/microsoft-teams/group-chat-software/)
+- **Ferramentas de desenho de tela (_wireframing_)**: [Figma](https://figma.com/)
+- **Ferramentas de gerenciamento do projeto**: [Github](https://github.com/)
 
 O Visual Studio Code foi escolhido porque ele possui uma integração com o sistema de versão e seu suporte ao desenvolvimento com react. O Teams foi escolhido como ferramenta de comunicação por ser mais prática. Para criar diagramas utilizamos o Figma por melhor captar as necessidades da nossa solução. Por fim, para gerenciar o projeto foi escolhido o Github, por sua integração com o sistema de versão.
