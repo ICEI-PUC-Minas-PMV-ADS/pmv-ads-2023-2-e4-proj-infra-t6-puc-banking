@@ -8,11 +8,12 @@
 
 ## Descrição
 
-Projeto voltado para a criação de um banco para cartão de crédito destinado a estudantes, tendo como seu objetivo principal um cartão da própria PUC.
+Projeto voltado para a criação de um banco digital destinado a estudantes, permitindo que estudantes da faculdade tenham mais facilidade na hora de 
+comprar, utilizando um cartão destinado a compra de materiais de estudo.
 
 ## Integrantes
 
-| [<img src="https://avatars.githubusercontent.com/u/82043220?v=4" widht=115><br><sub>Raul Shinaede</sub>](https://github.com/RaulShinaede) | [<img src="https://avatars.githubusercontent.com/u/102563767?v=4" widht=115><br><sub>Bruno Sellas</sub>](https://github.com/brunosellas) | [<img src="https://github.com/TulioFS.png" width=115><br><sub>Marco Túlio Félix Santiago</sub>](https://github.com/TulioFS)
+| [<img src="https://avatars.githubusercontent.com/u/82043220?v=4" width=115><br><sub>Raul Shinaede</sub>](https://github.com/RaulShinaede) | [<img src="https://avatars.githubusercontent.com/u/102563767?v=4" width=115><br><sub>Bruno Sellas</sub>](https://github.com/brunosellas) | [<img src="https://github.com/TulioFS.png" width=115><br><sub>Marco Túlio Félix Santiago</sub>](https://github.com/TulioFS)
 | :---: | :---: | :---: |
 
 ## Orientador
