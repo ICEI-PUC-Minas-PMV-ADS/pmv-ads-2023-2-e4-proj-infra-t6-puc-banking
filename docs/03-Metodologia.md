@@ -5,20 +5,52 @@ A metodologia contempla as definições de ferramentas utilizadas pela equipe ta
 
 ## Relação de Ambientes de Trabalho
 
-| Ambiente | Plataforma | Link de acesso | 
-| -------- | ---------- | -------------- | 
-| Repositório de código fonte | GitHub | [Repositório PUC-BANKING](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking) |
-| Documento do Projeto | GitHub | [Documentação GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/tree/main/docs) | 
-| Projeto de Interface e Wireframes | Figma | [Figma](https://www.figma.com/file/bdnY4n9wgtmjcbUnjkn6yY/PUC-Banking---01?type=design&node-id=0-1&mode=design) |
-| Gerenciamento do Projeto | GitHub | [Gerenciamento GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/projects?query=is%3Aopen) | 
+<table>
+  <tr>
+    <td width="300" align="center"><strong>Ambiente</strong></td>
+    <td width="300" align="center"><strong>Plataforma</strong></td>
+    <td width="400" align="center"><strong>Link de acesso</strong></td>
+  </tr>
+  <tr>
+    <td>Repositório de código fonte</td>
+    <td>GitHub</td>
+    <td><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking">Repositório PUC-BANKING</a></td>
+  </tr>
+  <tr>
+    <td>Documento do Projeto</td>
+    <td>GitHub</td>
+    <td><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/tree/main/docs">Documentação</a></td>
+  </tr>
+  <tr>
+    <td>Gerenciamento do Projeto</td>
+    <td>GitHub</td>
+    <td><a href="">Gerenciamento</a></td>
+  <tr>
+    <td>Projeto de Interface e Wireframes</td>
+    <td>Figma</td>
+    <td><a href="">Figma</a></td>
+  </tr>
+  <tr>
+    <td>Comunicação e Brainstroming</td>
+    <td>Microsoft Teams</td>
+    <td><a href="">Microsoft Teams</a></td>
+  </tr>
+</table>
 
 ## Controle de Versão
 
+Para gestão do código fonte do software, é utilizado um processo de controle de fluxo com base no Git Flow apresentado por Vincent Driessen (2010), mostrado na figura na seguir.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/82043220/e6e6c551-fb51-49a0-9aab-16a484563702)
+
 O projeto segue a seguinte convenção para o nome de branches:
 
-- `main`: Versão final do software já testada
-- `develop`: versão de desenvolvimento de software
-  
+- `Main`: Como Branch principal
+- `Hotfix`: Para correção de bugs
+- `Feature`: Para novas funcionalidades
+- `Develop`: Para desenvolvimento
+- `Release`: Para empacotar as modificações para o lançamento 
+
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
@@ -26,17 +58,64 @@ etiquetas:
 - `bug`: uma funcionalidade encontra-se com problemas
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
-- 
+
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
 
 A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
 
-- Scrum Master: Bruno Sellas;
-- Product Owner: Raul Oliveira;
-- Equipe de Desenvolvimento: Marco Túlio Félix, Bruno Sellas, Raul Oliveira.
-- Equipe de Design: Raul Oliveira
+<table>
+  <tr>
+    <td width="500" align="center" colspan="2">Scrum Master</td>
+  </tr>
+  <tr>
+    <td colspan="2">Responsável por facilitar e promover um ambiente de trabalho eficiente e colaborativo para a equipe de desenvolvimento. </td>
+  </tr>
+  <tr>
+    <td width="100" align="center"><strong>Integrantes</strong></td>
+    <td width="900"><a href="https://github.com/RaulShinaede">Raul Oliveira</a></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="500" align="center" colspan="2">Product Owner</td>
+  </tr>
+  <tr>
+    <td colspan="2">Responsável por representar os interesses dos stakeholders e definir as necessidades do produto. </td>
+  </tr>
+  <tr>
+    <td width="100" align="center"><strong>Integrantes</strong></td>
+    <td width="900"><a href="https://github.com/brunosellas">Bruno Sellas</a></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="500" align="center" colspan="2">Equipe de Desenvolvimento</td>
+  </tr>
+  <tr>
+    <td colspan="2">Responsáveis por implementar as funcionalidades previstas do software.</td>
+  </tr>
+  <tr>
+    <td width="100" align="center"><strong>Integrantes</strong></td>
+    <td width="900"><a href="https://github.com/RaulShinaede">Raul Oliveira</a>, <a href="https://github.com/brunosellas">Bruno Sellas</a>, <a href="https://github.com/TulioFS">Marco Túlio</a></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="500" align="center" colspan="2">Equipe de Design</td>
+  </tr>
+  <tr>
+    <td colspan="2">Responsáveis por projetar a interface e a identidade visual do sistema.</td>
+  </tr>
+  <tr>
+    <td width="100" align="center"><strong>Integrantes</strong></td>
+    <td width="900"><a href="https://github.com/RaulShinaede">Raul Oliveira</a></td>
+  </tr>
+</table>
 
 ### Processo
 
