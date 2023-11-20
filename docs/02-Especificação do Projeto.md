@@ -1,160 +1,544 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
 Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
 ## Personas
+Seguem demonstradas por meio dos quadros apresentados o levantamento feito das personas e suas características durante o processo de entendimento do problema:
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+<table>
+  <tr>
+   <td width="1000" colspan="5" align="center">Josepher Ferreira, 26 anos.</td>
+  </tr>
+  <tr>
+   <td width="200" align="center" height="200" rowspan="3"><img alt="Persona 01" src="https://github.com/brunosellas/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/102563767/0ae77e49-9147-4385-a05e-988324d4bb86"></td>
+   <td width="150" align="center">Ocupação</td>
+   <td colspan="3">Estudante de Econômia</td>
+   <tr>
+    <td width="150" align="center">Aplicativos</td>
+    <td width="210" align="center">Motivações</td>
+    <td width="210" align="center">Frustrações</td>
+    <td width="240" align="center">Hobbies, História</td>
+   </tr>
+  </tr>
+  <tr>
+   <td>
+    ●	Whatsapp<br>
+    ●	Outlook<br>
+    ●	Banco Digital<br> 
+    ●	Calculadora<br>
+    ●	TikTok<br> 
+   </td>
+   <td>
+    ●	Ter um crédito estudantil mais eficiente.<br>
+     <br>
+    ●	Aumentar sua gama de investimentos.<br>
+   </td>
+   <td>
+    ●	Não ter liberação de crédito como gostaria.<br>
+     <br>
+    ●	Não ter produtos de investimentos realmente eficazes.<br>
+   </td>
+   <td>
+    ●	Não possui Hobbies<br>
+   </td>
+  </tr>
+ </table>
+ <table>
+  <tr>
+   <td width="1000" colspan="5" align="center">Régis Passos, 32 anos.</td>
+  </tr>
+  <tr>
+   <td width="200" align="center" height="200" rowspan="3"><img alt="Persona 02" src="https://github.com/brunosellas/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/102563767/c89c043b-6741-4d5d-8c3d-7a29fa513d1f"></td>
+   <td width="150" align="center">Ocupação</td>
+   <td colspan="3">Arqueólogo e Paleontólog</td>
+   <tr>
+    <td width="150" align="center">Aplicativos</td>
+    <td width="210" align="center">Motivações</td>
+    <td width="210" align="center">Frustrações</td>
+    <td width="240" align="center">Hobbies, História</td>
+   </tr>
+  </tr>
+  <tr>
+   <td>
+    ●	Youtube<br>
+    ●	Whatsapp<br>
+    ●	Word<br>
+    ●	Excel<br>
+    ●	Ms Notes<br>
+    ●	Uber<br>
+    ●	Bancos digitais<br>
+   </td>
+   <td>
+    ●	Terminar sua licensiatura.<br>
+     <br>
+    ●	Encontrar uma forma mais amigavel de organizar seus gastos estudantis .<br>
+   </td>
+   <td>
+    ●	Dificuldade de conseguir manter o custo da licensiatura.<br>
+     <br>
+    ●	Pagar  muito juros por atrasos de mensalidades.<br>
+   </td>
+   <td>
+    ●	Estudar em sitios arqueológicos<br>
+   </td>
+  </tr>
+ </table>
+ <table>
+  <tr>
+   <td width="1000" colspan="5" align="center">Luana D'Avila, 29 anos.</td>
+  </tr>
+  <tr>
+   <td width="200" align="center" height="200" rowspan="3"><img alt="Persona 03" src="https://github.com/brunosellas/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/102563767/ed1ae78b-ea22-434e-8a50-d785393e8021"></td>
+   <td width="150" align="center">Ocupação</td>
+   <td colspan="3">Professora de Mestrado</td>
+   <tr>
+    <td width="150" align="center">Aplicativos</td>
+    <td width="210" align="center">Motivações</td>
+    <td width="210" align="center">Frustrações</td>
+    <td width="240" align="center">Hobbies, História</td>
+   </tr>
+  </tr>
+  <tr>
+   <td>
+    ● Nubank<br>
+    ●	Whatsapp<br>
+    ●	Instagram<br>
+    ●	TikTok<br>
+    ●	Google Sheets<br> 
+   </td>
+   <td>
+    ●	Ajudar mais jovens a ingressar na faculdade de maneira mais simples e menos burocrática.<br>
+     <br>
+    ● Encontrar um meio de centralizar débitos estudantis.<br>
+   </td>
+   <td>
+    ●	Sempre ter que lidar com as dificuldades em que seus alunos tem para pagr as mesalidades da faculdade.<br>
+     <br>
+    ●	Sentir falta de algum programa que facilite as taxas e os custos estudantis.<br>
+   </td>
+   <td>
+    ●	Atuar em sua area de mestrado.<br>
+   </td>
+  </tr>
+ </table>
+ <table>
+  <tr>
+   <td width="1000" colspan="5" align="center">Danilo Barreto, 36 anos.</td>
+  </tr>
+  <tr>
+   <td width="200" align="center" height="200" rowspan="3"><img alt="Persona 04" src="https://github.com/brunosellas/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/102563767/e4e6d8a6-d8dd-4a87-9650-fc135f27e543"></td>
+   <td width="150" align="center">Ocupação</td>
+   <td colspan="3">Concierge Bilingue</td>
+   <tr>
+    <td width="150" align="center">Aplicativos</td>
+    <td width="210" align="center">Motivações</td>
+    <td width="210" align="center">Frustrações</td>
+    <td width="240" align="center">Hobbies, História</td>
+   </tr>
+  </tr>
+  <tr>
+   <td>
+    ●	Nubank<br>
+    ●	slack<br>
+    ●	Jira<br>
+    ●	VsCode<br> 
+   </td>
+   <td>
+    ●	Começar uma nova faculdade e migrar para área de Ti.<br>
+     <br>
+    ●	Melhorar a renda para sua familia.<br>
+   </td>
+   <td>
+    ● Dificuldade para encontrar uma faculdade com qualidade de Ead e pagamento facilitado.<br>
+     <br>
+    ●	Ter que lidar com sistemas financeiros de faculdades lentos e atrasados.<br>
+   </td>
+   <td>
+    ● Viajar<br>
+   </td>
+  </tr>
+ </table>
+ <table>
+  
+ </table>
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A fim de buscar mais informações sobre os motivos e causas de uso dessas pessoas a plataforma a ser desenvolvida, foram realizadas perguntas por meio de entrevistas, tendo resultados demonstrados no quadro apresentado:
 
-<table> 
-<tr>
- <td width="200" align="center"><strong>EU COMO... <code>PERSONA</code></strong>strong></td>
- <td width="200" align="center"><strong>QUERO/PRECISO... <code>FUNCIONALIDADE</code></strong></td>
- <td widtg="200" align="center"><strong>PARA ... <code>MOTIVO/VALOR</code></strong></td>
-</tr>
-<tr>
- <td>Josepher Ferreira</td>
- <td>Ter mais praticidade para gerir meus investimentos</td>
- <td>Conquistar minha estabilidade financeira</td>
-</tr>
-<tr>
- <td>Luana D'Avila</td>
- <td>Ter um banco com mais flexibilidade e melhor acessibilidade</td>
- <td>Organizar os meus gastos mensais</td>
-</tr>
-<tr>
- <td>Régis Passos</td>
- <td>Abrir minha primeira conta bancária</td>
- <td>Coordenar meu primeiro salário recebido</td>
-</tr> 
+<table>
+  <tr>
+    <td width="200" align="center"><strong>EU COMO... <code>PERSONA</code></strong></td>
+    <td width="400" align="center"><strong>QUERO/PRECISO ... <code>FUNCIONALIDADE</code></strong></td>
+    <td width="300" align="center"><strong>PARA ... <code>MOTIVO/VALOR</code></strong></td>
+  </tr>
+      <tr>
+        <td>Josepher Ferreira</td>
+        <td>Ter mais crédito estudantil.</td>
+        <td>Facilitar sua vida universitaria.</td>
+      </tr>
+      <tr>
+        <td>Luana D'Avila</td>
+        <td>Encontrar um meio de centralizar débitos estudantis.</td>
+        <td>Ajudar mais jovens a ingressar na faculdade de maneira mais simples e menos burocrática.</td>
+      </tr>
+       <tr>
+        <td>Régis Passos</td>
+        <td>Encontrar uma forma mais amigavel de organizar seus gastos estudantis.</td>
+        <td>Terminar sua licensiatura.</td>
+      </tr>
+       <tr>
+        <td>Danilo Barreto</td>
+        <td>Começar uma nova faculdade e migrar para área de Ti.</td>
+        <td>Melhorar a renda para sua familia.</td>
+      </tr>
 </table>
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Modelagem do Processo de Negócio 
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+Percebemos que os processos atuais para a realização de matriculas e atendimento financeiro nas faculdades tem se tornado cada dia mais cansativos e inacessíveis. A lentidão em suas imensas filas de espera para atendimento, dificuldades para lidar com o gerenciamento financeiro da faculdade, desde serviços necessários, como acompanhamento ou vizualização determinado dado financeiro e sistemas sobrecarregados foram os fatores que nos levaram a criação deste projeto. 
 
 ### Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+Temos como objetivo tornar este processo do ingresso do aluno à faculdade mais simples, prático, ágil e seguro possível. Removendo assim, este duradouro e cansativo processo físico e instaurando uma forma mais objetiva, fácil, clara e acessível ao aluno. 
 
-### Processo 1 – NOME DO PROCESSO
+Junto a este objetivo, temos como possíveis melhorias, a visualização de todos os contratos, cláusulas, valores e acesso a créditos mais amigáveis para os alunos e ingressantes de todos os cursos da instituição, pro aluno se focar no mais importa que é aprender e derxar sua marca.
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
+### Processo – De Matricula ou acompanhamento financeiro (Forma tradicional) - As Is
+<table>
+  <tr>
+    <td width="700" align="center" rowspan="3"><img alt="Modelagem de Processo" src="https://github.com/brunosellas/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/102563767/4ba88013-6614-46d6-ae5f-844b76583470"></td>
+  </tr>
+</table>
 
-![Processo 1](img/02-bpmn-proc1.png)
+### Processo – De Matricula ou acompanhamento financeiro (Possíveis Melhorias) - To Be 
+<table>
+  <tr>
+    <td width="700" align="center" rowspan="3"><img alt="Modelagem de Processo" src="https://github.com/brunosellas/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/102563767/3ee27b12-8d38-466e-8ceb-78c23c9a835e"></td>
+  </tr>
+</table>
 
-### Processo 2 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
-
-![Processo 2](img/02-bpmn-proc2.png)
+## Relação Potencialidades e Oportunidades de Melhoria para o Processo de Negócio
+No processo As Is podemos ver que tudo funciona ainda de maneira muito física e demanda de muita estrutura, necessidado de deslocamento do aluno até a unidade escolhida da faculdade e tendo que ser atendido junto de diversos outros estudantes por um número limitado de funcionários, onde no modelo to be tudo é muito mais simplificado, de forma totalmente digitaç, sem filas, sem entraves, sem espera e com muito menos burocracia para se gerir o financeiro de cada aluno da instituição.
 
 ## Indicadores de Desempenho
-
-![Indicadores de desempenho PucBanking](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/blob/4fa2eeea45f109524e3cdb6ec7a8685b761f791f/docs/img/IndicadoresDeDesempenho.png)
+![Indicadores de desempenho ingresso fácil](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/102563767/e0e5d41e-e91b-4c21-8c5c-77da5c4755cd)
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
+As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+Para priorizar os requisitos, foi utilizado  a técnica de Escala de três Níveis, para essa técnica foi definido dois aspectos principais: importância e urgência.
+Assim, forma-se um quadrante, que é usado para obter o nível de prioridade do requisito, como mostrado na figura a seguir:
+
+![tabela-prioridade-requisitos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/82043220/053593fb-19ec-48cb-8a3a-71aeab08be48)
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+<table>
+  <tr>
+    <td align="center" width="100">ID</td>
+    <td align="center" width="800">Descrição do Requisito</td>
+    <td align="center" width="100">Prioridade</td>
+  </tr>
+  <tr>
+    <td align="center">RF-001</td>
+    <td align="left">O Usuário deve poder criar uma conta na plataforma.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-002</td>
+    <td align="left">O Sistema deve enviar um email de confirmação para confirmar conta após a criação.</td>
+    <td align="center">MÉDIA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-003</td>
+    <td align="left">O Sistema deve gerar um token de validação para o usuário se manter conectado no sistema.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-004</td>
+    <td align="left">O Usuário deve poder recuperar sua senha através de uma validação de email.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-005</td>
+    <td align="left">O Sistema deve validar o token do usuário antes de permitir a entrada no sistema.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-006</td>
+    <td align="left">O Usuário deve poder sair da sua conta.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-007</td>
+    <td align="left">O Usuário deve poder visualizar sua conta com todas as suas principais informações financeiras.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-008</td>
+    <td align="left">O Usuário deve poder filtrar por transações detalhadas em seu extrato.</td>
+    <td align="center">MÉDIA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-009</td>
+    <td align="left">O Sistema deve listar as transações feitas pelo usuario.</td>
+    <td align="center">MÉDIA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-010</td>
+    <td align="left">O Usuário deve poder visualizar as sessões disponíveis para um filme e seus horários.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-011</td>
+    <td align="left">O Usuário deve poder escolher qual dos cartões disponíveis ele pode ter.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-012</td>
+    <td align="left">O Usuário deve poder escolher os programas de créditos dísponíveis em sua conta.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-013</td>
+    <td align="left">O Sistema deve marcar como fechadas as faturas já pagas pelo usuário.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-014</td>
+    <td align="left">O Usuário deve poder ter acesso aos seus cartões disponíveis no sistema.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-015</td>
+    <td align="left">O Sistema deve notificar o usuário após uma operação financeira.</td>
+    <td align="center">MÉDIA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-016</td>
+    <td align="left">O Usuário deve poder imprimir os extratos da conta.</td>
+    <td align="center">MÉDIA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-017</td>
+    <td align="left">O Usuário deve poder cancelar certas transações.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-018</td>
+    <td align="left">O Sistema deve liberar o limite de crédito do usuário após fatura paga.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-019</td>
+    <td align="left">O Sistema deve cancelar a operação de compra de ingressos caso o usuário esteja inativo e não tenha finalizado o pagamento.</td>
+    <td align="center">MÉDIA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-020</td>
+    <td align="left">O Usuário deve poder visualizar todas as suas faturas e extratos.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RF-021</td>
+    <td align="left">O Usuário deve poder editar informações básicas do perfil.</td>
+    <td align="center">ALTA</td>
+  </tr>
+</table>
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+<table>
+  <tr>
+    <td align="center" width="100">ID</td>
+    <td align="center" width="800">Descrição do Requisito</td>
+    <td align="center" width="100">Prioridade</td>
+  </tr>
+  <tr>
+    <td align="center">RNF-001</td>
+    <td align="left">O Sistema não deve permitir senhas que não atendam o padrão de complexidade:<br><strong>min. 8 caracteres, 1 letra, 1 número, 1 símbolo entre: @!$ , 1 maiúscula, 1 mínuscula.</strong></td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RNF-002</td>
+    <td align="left">O Sistema não deve permitir que o usuário altere a senha para a senha atual durante a recuperação de senha.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RNF-003</td>
+    <td align="left">O Token de validação deve expirar em 8 horas.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RNF-004</td>
+    <td align="left">O Email de recuperação de senha deve expirar em 5 min.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RNF-005</td>
+    <td align="left">O Sistema não deve permitir que o usuário acesse linhas créditos não autorizadas pro perfil dele .</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RNF-006</td>
+    <td align="left">O Sistema não deve permitir que o usuário faça pagamentos e compras sem saldo ou limite.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RNF-007</td>
+    <td align="left">O Sistema não deve permitir que o usuário cancele a compra se aprovada por digitação de senha do cartão físico.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
+    <td align="center">RNF-008</td>
+    <td align="left">O Tempo de inatividade com o sistema aberto não pode ser maior que 10 min.</td>
+    <td align="center">MÉDIA</td>
+  </tr>
+</table>
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+<table>
+  <tr>
+    <td align="center" width="100"><strong>ID</strong></td>
+    <td align="center" width="900"><strong>Restrição</strong></td> 
+  </tr>
+  <tr>
+    <td align="center">001</td>
+    <td>O projeto deverá ser entregue até o final do semestre.</td>
+  </tr>
+  <tr>
+    <td align="center">002</td>
+    <td>O projeto deverá ser feito apenas por integrantes do grupo.</td>
+  </tr>
+</table>
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+O diagrama de caso de uso é uma poderosa ferramenta de modelagem utilizada na engenharia de software para representar visualmente como um sistema interage com seus atores externos, ou seja, como ele atende às necessidades dos usuários, clientes, sistemas externos e outros elementos que interagem com ele. Abaixo está o diagrama de caso de uso para o sistema proposto:
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+![Diagrama de caso de uso](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/82043220/f1e7fffc-e51c-4350-9a18-6fd9d8932990)
 
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
 
 # Matriz de Rastreabilidade
 
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
+Nesta matriz, os requisitos funcionais (RF) estão listados na primeira parte, e os requisitos não funcionais (RNF) estão listados na segunda parte. A coluna "Requisito Associado" indica a associação entre os requisitos funcionais e não funcionais, quando aplicável. Por exemplo, os requisitos RNF-003, RNF-005 e RNF-006 estão associados ao requisito funcional RF-007, pois todos estão relacionados à escolha e gestão dos assentos durante a compra de ingressos.
 
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
+Isso permite rastrear como os requisitos funcionais e não funcionais estão relacionados e como eles se complementam no desenvolvimento do sistema.
 
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
-
-> **Links Úteis**:
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
+<table>
+  <thead>
+    <tr>
+        <th width="100">ID</th>
+        <th width="800">Descrição do Requisito</th>
+        <th width="100">Requisito Associado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>RF-001</td>
+      <td>O Sistema deve permitir que o usuário crie uma conta.</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>RF-002</td>
+      <td>O Sistema deve permitir que o usuário faça login em uma conta já cadastrada.</td>
+      <td>RF-001</td>
+    </tr>
+    <tr>
+      <td>RF-003</td>
+      <td>O Sistema deve permitir que o usuário recupere a senha de sua conta.</td>
+      <td>RF-001</td>
+    </tr>
+    <tr>
+      <td>RF-004</td>
+      <td>O Sistema deve listar todos os filmes em cartaz no cinema.</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>RF-005</td>
+      <td>O Sistema deve informar os horários dos filmes.</td>
+      <td>RF-004</td>
+    </tr>
+    <tr>
+      <td>RF-006</td>
+      <td>O Sistema deve informar a disponibilidade de um filme.</td>
+      <td>RF-004</td>
+    </tr>
+    <tr>
+      <td>RF-007</td>
+      <td>O Sistema deve permitir que o usuário escolha quais assentos reservar durante a compra dos ingressos.</td>
+      <td>RF-005, RF-006, RF-009</td>
+    </tr>
+    <tr>
+      <td>RF-008</td>
+      <td>O Sistema deve permitir que o usuário desista da compra dos ingressos 1 hora antes do filme começar.</td>
+      <td>RF-007</td>
+    </tr>
+    <tr>
+      <td>RF-009</td>
+      <td>O Sistema deve permitir que o usuário escolha em qual sala do cinema deseja ver o filme.</td>
+      <td>RF-004, RF-012</td>
+    </tr>
+    <tr>
+      <td>RF-010</td>
+      <td>O Sistema deve permitir que o usuário imprima os ingressos.</td>
+      <td>RF-007</td>
+    </tr>
+    <tr>
+      <td>RF-011</td>
+      <td>O Sistema deve notificar o usuário quando o tempo para reembolso de ingressos se esgotar.</td>
+      <td>RF-008</td>
+    </tr>
+    <tr>
+      <td>RF-012</td>
+      <td>O Sistema deve informar quais os cinemas mais próximos ao usuário possuem salas com exibição do filme escolhido.</td>
+      <td>RF-004, RF-006</td>
+    </tr>
+    <tr>
+      <td>RNF-001</td>
+      <td>O Sistema deve notificar o usuário 30 min antes de seu filme começar.</td>
+      <td>RF-007</td>
+    </tr>
+    <tr>
+      <td>RNF-002</td>
+      <td>O Sistema deve listar separadamente filmes sem disponibilidade.</td>
+      <td>RF-006</td>
+    </tr>
+    <tr>
+      <td>RNF-003</td>
+      <td>O Sistema deve implementar um sistema de fila para a escolha dos assentos, não permitindo mais usuários do que assentos disponíveis.</td>
+      <td>RF-007</td>
+    </tr>
+    <tr>
+      <td>RNF-004</td>
+      <td>O Sistema deve escalar horizontalmente caso necessário.</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>RNF-005</td>
+      <td>O Sistema deve liberar os assentos caso um usuário desista de seu ingresso.</td>
+      <td>RF-008</td>
+    </tr>
+    <tr>
+      <td>RNF-006</td>
+      <td>O Sistema deve reservar os assentos temporariamente por 5 min após a escolha dos assentos pelo usuário, liberando caso não seja efetuada a compra dos ingressos.</td>
+      <td>RF-007</td>
+    </tr>
+    <tr>
+      <td>RNF-007</td>
+      <td>O Sistema deve sugerir salas alternativas caso não haja disponibilidade na sala atual.</td>
+      <td>RF-009</td>
+    </tr>
+  </tbody>
+</table>
 
 
 # Gerenciamento de Projeto
@@ -163,22 +547,51 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 ## Gerenciamento de Tempo
 
-Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
+O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados.
+Conforme mencionado no item anterior, o Asana apresenta o detalhamento de cada sprint, com indicação de colaborar encarregado de cada tarefa e com atalho para comunicação com o mesmo facilitando tanto a gestão da equipe quanto a visualização do status de progressão das tarefas:
+Para este projeto utilizares o espaço do github para gerenciamento de Projetos no estilo Kanban. 
+<a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/579"> Gerenciamento de Projeto</a> 
 
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
+![Captura de tela de 2023-09-09 20-36-46](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/105467049/de946ec5-322c-4fcd-b1be-ecfb1485bd63)
 
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
+Gerenciamos o tempo de acordo com as datas e cronogramas oferecidos pela univercidade como base:
 
-![Gráfico de Gantt](img/02-grafico-gantt.png)
+![Alt text](../docs/img/image.png)
+
 
 ## Gerenciamento de Equipe
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
+Em "<a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/579"> Gerenciamento de Projeto</a> ", gerenciamos as datas, equipe, e atividades a serem realizadas.
 
-![Simple Project Timeline](img/02-project-timeline.png)
+![Alt text](../docs/img/Github_Project.png)
+
+ | Scrum Master  |
+ |---------------|
+ |● Bruno Selas |
+
+| Equipe de Desenvolvimento|
+|--------------------------|
+| ● Raul Shinaede          |  
+| ● Marco Túlio            |
+| ● Bruno Selas            | 
+          
+
+
 
 ## Gestão de Orçamento
 
 O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
 
-![Orçamento](img/02-orcamento.png)
+| Gasto Estimado                 | Valor                                                                                   |
+|--------------------------------|----------------------------------------------------------------------------------------------------------|
+| Recursos Humanos               |  R$ 20.000,00      |                                                                                 | | UX/UI                          |  R$ 15.000,00      |             
+| Desenvolvimento                |  R$ 92.000,00      |
+| Gestão de Projeto              |  R$ 5.000,00       | 
+| Infraestrutura                 |  R$ 12.000,00      |
+| Hardware                       |  R$ 20.000,00      |
+| Marketing		                    |  R$5.000,00        |
+| Cursos e treinamentos          |  R$ 5.400,00       |
+| Licenças de Softwares          |  R$ 10.000,00      |
+| Hospedagem	                    |  R$2.000,00        |  
+| **Total**                      |  **R$ 186.000,00** |
+
