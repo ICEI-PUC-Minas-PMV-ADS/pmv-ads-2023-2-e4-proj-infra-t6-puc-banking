@@ -5,28 +5,22 @@ Dentre as preocupações para a montagem da interface do sistema, será estabele
 
 ## Diagrama de Fluxo
 
-O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e  muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
+O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
 
-O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamente a indicação dos principais elementos de interface - tais como menus e acessos - e funcionalidades, tais como editar, pesquisar, filtrar, configurar - e a conexão entre esses boxes a partir do processo de interação. Você pode ver mais explicações e exemplos https://www.lucidchart.com/blog/how-to-make-a-user-flow-diagram.
+![_Fluxograma](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/82043220/f9bdd8ee-69c0-49e9-b34c-e75f0f7d40c6)
 
-![Exemplo de Diagrama de Fluxo](img/diagramafluxo2.jpg)
+Abaixo está uma visão mais ampla da comunicação entre as telas, demonstrando como as funcionalidades estaram vinculadas e como o usuário irá navegar na aplicação.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
+![Wireflow (1)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/82043220/788dcc7b-d7a2-4d43-bc91-c7192c9aeea0)
 
-> **Links Úteis**:
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+Um wireframe é uma representação visual básica e esquemática de um design de página da web, aplicativo ou interface de usuário, semelhante a um esboço ou um mapa de estrutura. Esse artefato é criado durante a fase inicial do processo de design para proporcionar uma visão clara da disposição dos elementos na interface, sem se aprofundar em detalhes gráficos ou estilísticos. Abaixo está o wireframe de baixo nível para o sistema proposto:
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+![PUCBanking (1)-1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/82043220/2a319186-0c8c-4955-9127-721d6f32a126)
+
+para uma melhor visualização do design proposto, foi desenvolvido o design de mais alto nível da tela inicial, levando em consideração as dimensões de telas para Desktop, Notebook, Tablet e Mobile.
+Toda as demais telas seram baseadas na identidade visual da página de principal.
  
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+![PUCBanking (2)-3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/82043220/ec6aad38-2cc6-478f-bb0d-156ad0deca7b)
