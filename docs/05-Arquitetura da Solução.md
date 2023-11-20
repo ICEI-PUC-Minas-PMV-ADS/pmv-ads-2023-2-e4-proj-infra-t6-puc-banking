@@ -1,10 +1,46 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
+A arquitetura de um projeto de software é o alicerce estrutural que define a organização e interconexão de seus componentes, visando atender aos requisitos funcionais e não funcionais de forma eficiente e sustentável. É um plano mestre que orienta o desenvolvimento, facilitando a compreensão, a manutenção e a evolução do sistema ao longo do tempo. A arquitetura distribuída é o modelo descentralizado que permite que diferentes partes do sistema operem em conjunto, proporcionando eficiência, escalabilidade e tolerância a falhas. Componentes interconectados colaboram harmoniosamente, abrindo portas para uma experiência de usuário fluida e confiável. Abaixo está a arquitetura para o sistema proposto:
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+![diagrama-arquitetura-puc-banking](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/82043220/dbdd3adc-4ed2-4ce8-a7a1-84654fcdd59c)
 
-![Arquitetura da Solução](img/02-mob-arch.png)
+A arquitetura do sistema está baseada em microserviços, onde cada serviço tem sua responsabilidade e seus recursos próprios. Abaixo está de forma mais detalhada cada componente dessa arquitetura e como eles se relacionam entre si.
+
+### Identity service
+
+É o serviço responsável por controlar todos os dados de acesso do usuário, além de fornecer endpoints para cadastro de novos usuários e login.  
+
+As dependências desse serviço são:
+
+- Banco de dados **SQL Server**
+- Barramento de eventos
+
+### Account service
+
+É o serviço responsável por controlar todos os dados bancários do usuário, como histórico de pagamentos, limite do cartão, etc. O Serviço fornece endpoints para verificar histórico de pagamentos, os limites do cartão e dados da conta.
+
+As depêndencias desse serviço são:
+
+- Banco de dados **SQL Server**
+- Barramento de eventos
+
+### Card service
+
+É o serviço responsável por criar, validar e gerenciar os cartões.
+
+As depêndencias desse serviço são:
+
+- Banco de dados **SQL Server**
+- Barramento de eventos
+
+### Payment service
+
+É o serviço responsável por efetuar pagamentos.
+
+As depêndencias desse serviço são:
+
+- Banco de dados **SQL Server**
+- Barramento de eventos
 
 ## Diagrama de Classes
 
