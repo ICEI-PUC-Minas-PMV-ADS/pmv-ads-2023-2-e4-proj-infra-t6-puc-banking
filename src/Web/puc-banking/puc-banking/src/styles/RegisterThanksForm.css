@@ -1,0 +1,18 @@
+.thanks-container{
+    text-align: center;
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.thanks-container h2{
+    margin-top: 40px;
+    margin-bottom: 2rem;
+}
+
+.thanks-container p{
+    font-size: .9;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,47 @@
+.steps-container {
+    position: relative;
+    margin-top: 20px;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.steps-container::after{
+    content: "";
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    top: 30px;
+}
+
+.step-container {
+    z-index: 1;
+    text-align: center;
+    width: 120px;
+    background-color: #fff;
+}
+
+.step-container svg {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.active > svg {
+    fill: #7076f4;
+}
+
+@media (max-width:500px) {
+
+    .steps-container {
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .step-container p {
+        visibility: collapse;
+        width: 48px;
+    }
+}

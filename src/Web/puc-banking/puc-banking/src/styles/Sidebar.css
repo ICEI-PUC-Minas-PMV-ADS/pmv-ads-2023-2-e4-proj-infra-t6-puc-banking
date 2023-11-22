@@ -1,0 +1,23 @@
+#parentM li a:hover {
+    background-color: var(--colors-primary-200);
+}
+
+.app-bg-primary {
+    background-color: var(--colors-primary-400);
+}
+
+.app-item-active {
+    background-color: var(--colors-primary-300);
+}
+
+.sidebar-profile-username {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+.sidebar-item-title {
+    font-size: .9rem;
+    font-weight: 400;
+    font-family: 'Roboto';
+}

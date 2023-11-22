@@ -1,0 +1,18 @@
+.alert {
+    position: absolute;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+.bg-primary {
+    background-color: var(--colors-primary-400);
+}
+
+.text-roboto-bold {
+    font-family: var(--fonts-roboto);
+    font-weight: 500;
+}
+
+.text-roboto {
+    font-family: var(--fonts-roboto);
+}

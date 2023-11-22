@@ -1,0 +1,69 @@
+.inputs-container {
+    min-height: 330px;
+}
+
+.register-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.register-message h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.form-container{
+    max-width: 600px;
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, .2) 0px 7px 29px 0px;
+    margin-top: 26px;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+}
+
+.mid-container {
+    width: 80%;
+}
+
+.actions{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.actions button{
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    border-radius: 3px;
+    background-color: #dfdfdf;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+.actions button:hover{
+    background-color: #cfcfcf;
+
+}
+
+@media (max-width:500px) {
+    .register-message h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .register-message p {
+        font-size: 1rem;
+    }
+}

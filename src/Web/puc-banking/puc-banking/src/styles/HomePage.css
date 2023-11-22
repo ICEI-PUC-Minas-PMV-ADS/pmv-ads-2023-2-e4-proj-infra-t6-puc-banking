@@ -1,0 +1,189 @@
+.welcome-message {
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: var(--colors-primary-400);
+}
+
+.card {
+    border: none;
+    min-width: 200px;
+    margin-right: 12px;
+    height: 112px;
+    margin-bottom: 12px;
+}
+
+.card .card-body {
+    padding: .5rem .5rem;
+}
+
+.card .card-title {
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-weight: 500;
+    height: min-content;
+}
+
+.card .card-text {
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.card .card-button {
+    background-color: var(--colors-primary-300);
+    padding: .2rem .5rem;
+    color: var(--colors-neutral-00);
+}
+
+.transactions-date {
+    font-size: 1rem;
+    font-family: 'Roboto';
+    font-weight: 600;
+    margin: 1.5rem 0;
+}
+
+.transaction-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: var(--colors-black-5);
+}
+
+.transaction-icon {
+    fill: var(--colors-neutral-700);
+    font-size: 1.5rem;
+}
+
+.transactions-label {
+    font-size: 1rem;
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: var(--colors-neutral-700);
+    height: min-content;
+    margin: 0;
+}
+
+.transaction-name {
+    font-size: 1rem;
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: var(--colors-neutral-700);
+    height: min-content;
+    margin: 0;
+}
+
+.transaction-time {
+    font-size: 1rem;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: var(--colors-neutral-400);
+    margin: 0;
+}
+
+.transaction-value {
+    font-size: 1.2rem;
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: var(--colors-neutral-1000);
+}
+
+.view-all-transactions-btn {
+    background-color: var(--colors-primary-300);
+    color: var(--colors-neutral-00);
+}
+
+.view-all-transactions-btn:hover {
+    background-color: var(--colors-primary-400);
+    color: var(--colors-neutral-00);
+}
+
+
+@media (max-width: 560px) {
+    .transaction-value {
+        font-size: 1rem;
+    }
+}
+
+.control-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-radius: 12px;
+    width: 96px;
+    height: 96px;
+    padding: 12px
+}
+
+.control-btn:hover {
+    background-color: var(--colors-neutral-200)!important;
+}
+
+.control-btn svg {
+    font-size: 36px;
+    fill: var(--colors-neutral-700);
+}
+
+.control-btn span {
+    font-size: 1rem;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: var(--colors-neutral-700);
+}
+
+
+.credit-card {
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: var(--colors-primary-400);
+    padding: 24px 12px 24px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.credit-card-logo {
+    width: 100px;
+}
+
+.credit-card-number {
+    font-size: 1rem;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: var(--colors-neutral-00);
+}
+
+.credit-card-name {
+    font-size: 1rem;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: var(--colors-neutral-00);
+}
+
+.credit-card-label {
+    font-size: .8rem;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: var(--colors-neutral-200);
+}
+
+.credit-card-value {
+    font-size: 1rem;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: var(--colors-neutral-00);
+}
+
+@media (max-width: 690px) {
+    .credit-card {
+        width: 100%;
+        minHeight: 200px;
+    }
+}
