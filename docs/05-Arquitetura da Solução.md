@@ -70,9 +70,25 @@ A figura abaixo ilustra o esquema relacional para o sistema proposto.
 
 O Modelo Físico contém o código necessário para gerar o banco de dados da aplicação, com todas as entidades como tabelas, e seus atributos como linhas dessas tabelas. O Modelo Físico trabalha em conjunto com o Esquema Relacional, veja: Esquema relacional.
 
-O script de criação do banco foi gerado usando o Esquema Relacional apartir da ferramenta Lucidchart, ele se destina ao banco de dados relacional Postgres e é gerado com a seguinte estrutura:
+O script de criação do banco foi gerado usando o Esquema Relacional apartir da ferramenta [Lucidchart](https://www.lucidchart.com), ele se destina ao banco de dados relacional SQL Server e é gerado com a seguinte estrutura:
 
+```sql
+...
 
+CREATE TABLE "User" (
+  "email" nvarchar(50),
+  "password" nvarchar(50),
+  "name" nvarchar(50)
+  PRIMARY KEY ("email")
+);
+
+...
+```
+
+O modelo completo pode ser encontrado em:  
+- - **`pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/src/db/pucbanking.sql`**  
+
+ou acessando o Link: [**Pucbanking.sql**]().
 
 ## Tecnologias Utilizadas
 
