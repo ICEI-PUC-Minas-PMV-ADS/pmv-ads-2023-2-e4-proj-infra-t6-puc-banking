@@ -250,102 +250,62 @@ Assim, forma-se um quadrante, que é usado para obter o nível de prioridade do 
   </tr>
   <tr>
     <td align="center">RF-002</td>
-    <td align="left">O Sistema deve enviar um email de confirmação para confirmar conta após a criação.</td>
+    <td align="left">O Sistema deve gerar um token de validação para o usuário se manter conectado no sistema.</td>
     <td align="center">MÉDIA</td>
   </tr>
   <tr>
     <td align="center">RF-003</td>
-    <td align="left">O Sistema deve gerar um token de validação para o usuário se manter conectado no sistema.</td>
+    <td align="left">O Usuário deve poder redefinir a sua senha.</td>
     <td align="center">ALTA</td>
   </tr>
   <tr>
     <td align="center">RF-004</td>
-    <td align="left">O Usuário deve poder recuperar sua senha através de uma validação de email.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-005</td>
     <td align="left">O Sistema deve validar o token do usuário antes de permitir a entrada no sistema.</td>
     <td align="center">ALTA</td>
   </tr>
   <tr>
-    <td align="center">RF-006</td>
+    <td align="center">RF-005</td>
     <td align="left">O Usuário deve poder sair da sua conta.</td>
     <td align="center">ALTA</td>
   </tr>
   <tr>
+    <td align="center">RF-006</td>
+    <td align="left"> O Usuário deve poder visualizar sua conta com todas as suas principais informações financeiras.</td>
+    <td align="center">ALTA</td>
+  </tr>
+  <tr>
     <td align="center">RF-007</td>
-    <td align="left">O Usuário deve poder visualizar sua conta com todas as suas principais informações financeiras.</td>
+    <td align="left">O Usuário deve poder filtrar por data as transações em seu extrato.</td>
     <td align="center">ALTA</td>
   </tr>
   <tr>
     <td align="center">RF-008</td>
-    <td align="left">O Usuário deve poder filtrar por transações detalhadas em seu extrato.</td>
+    <td align="left">O Sistema deve liberar o limite de crédito do usuário após fatura paga.</td>
     <td align="center">MÉDIA</td>
   </tr>
   <tr>
     <td align="center">RF-009</td>
-    <td align="left">O Sistema deve listar as transações feitas pelo usuario.</td>
+    <td align="left">O Usuário deve poder editar informações básicas do perfil.</td>
     <td align="center">MÉDIA</td>
   </tr>
   <tr>
     <td align="center">RF-010</td>
-    <td align="left">O Usuário deve poder visualizar as sessões disponíveis para um filme e seus horários.</td>
+    <td align="left">O Usuário deve poder editar informações básicas do perfil.</td>
     <td align="center">ALTA</td>
   </tr>
   <tr>
     <td align="center">RF-011</td>
-    <td align="left">O Usuário deve poder escolher qual dos cartões disponíveis ele pode ter.</td>
+    <td align="left">O Sistema deve negar a transação caso o usuário não tenha limite.</td>
     <td align="center">ALTA</td>
   </tr>
   <tr>
     <td align="center">RF-012</td>
-    <td align="left">O Usuário deve poder escolher os programas de créditos dísponíveis em sua conta.</td>
+    <td align="left">O Sistema deve reservar o limite do cartão antes de confirmar a compra.</td>
     <td align="center">ALTA</td>
   </tr>
   <tr>
     <td align="center">RF-013</td>
-    <td align="left">O Sistema deve marcar como fechadas as faturas já pagas pelo usuário.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-014</td>
-    <td align="left">O Usuário deve poder ter acesso aos seus cartões disponíveis no sistema.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-015</td>
-    <td align="left">O Sistema deve notificar o usuário após uma operação financeira.</td>
-    <td align="center">MÉDIA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-016</td>
-    <td align="left">O Usuário deve poder imprimir os extratos da conta.</td>
-    <td align="center">MÉDIA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-017</td>
-    <td align="left">O Usuário deve poder cancelar certas transações.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-018</td>
-    <td align="left">O Sistema deve liberar o limite de crédito do usuário após fatura paga.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-019</td>
-    <td align="left">O Sistema deve cancelar a operação de compra de ingressos caso o usuário esteja inativo e não tenha finalizado o pagamento.</td>
-    <td align="center">MÉDIA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-020</td>
-    <td align="left">O Usuário deve poder visualizar todas as suas faturas e extratos.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RF-021</td>
-    <td align="left">O Usuário deve poder editar informações básicas do perfil.</td>
+    <td align="left">O Usuário deve poder gerar o boleto da fatura do cartão.</td>
     <td align="center">ALTA</td>
   </tr>
 </table>
@@ -375,28 +335,18 @@ Assim, forma-se um quadrante, que é usado para obter o nível de prioridade do 
   </tr>
   <tr>
     <td align="center">RNF-004</td>
-    <td align="left">O Email de recuperação de senha deve expirar em 5 min.</td>
+    <td align="left">O Sistema deve estar disponível 24h por dia.</td>
     <td align="center">ALTA</td>
   </tr>
   <tr>
     <td align="center">RNF-005</td>
-    <td align="left">O Sistema não deve permitir que o usuário acesse linhas créditos não autorizadas pro perfil dele .</td>
+    <td align="left">O Sistema deve retornar os dados do usuário em até 5s .</td>
     <td align="center">ALTA</td>
   </tr>
   <tr>
     <td align="center">RNF-006</td>
-    <td align="left">O Sistema não deve permitir que o usuário faça pagamentos e compras sem saldo ou limite.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RNF-007</td>
-    <td align="left">O Sistema não deve permitir que o usuário cancele a compra se aprovada por digitação de senha do cartão físico.</td>
-    <td align="center">ALTA</td>
-  </tr>
-  <tr>
-    <td align="center">RNF-008</td>
     <td align="left">O Tempo de inatividade com o sistema aberto não pode ser maior que 10 min.</td>
-    <td align="center">MÉDIA</td>
+    <td align="center">ALTA</td>
   </tr>
 </table>
 
