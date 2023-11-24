@@ -290,7 +290,7 @@ Assim, forma-se um quadrante, que é usado para obter o nível de prioridade do 
   </tr>
   <tr>
     <td align="center">RF-010</td>
-    <td align="left">O Usuário deve poder editar informações básicas do perfil.</td>
+    <td align="left">O Sistema deve verificar o limite do cartão do usuário antes de aprovar uma compra.</td>
     <td align="center">ALTA</td>
   </tr>
   <tr>
