@@ -233,7 +233,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 Para priorizar os requisitos, foi utilizado  a técnica de Escala de três Níveis, para essa técnica foi definido dois aspectos principais: importância e urgência.
 Assim, forma-se um quadrante, que é usado para obter o nível de prioridade do requisito, como mostrado na figura a seguir:
 
-![tabela-prioridade-requisitos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/82043220/053593fb-19ec-48cb-8a3a-71aeab08be48)
+![tabela-prioridade-requisitos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/102563767/77666800-d441-472e-a51c-520bed31b037)
 
 ### Requisitos Funcionais
 
