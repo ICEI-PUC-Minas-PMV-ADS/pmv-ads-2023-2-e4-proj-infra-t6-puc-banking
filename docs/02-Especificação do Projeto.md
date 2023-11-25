@@ -502,6 +502,8 @@ Para este projeto utilizares o espaço do github para gerenciamento de Projetos 
 
 ![Captura de tela de 2023-09-09 20-36-46](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/105467049/de946ec5-322c-4fcd-b1be-ecfb1485bd63)
 
+
+
 Gerenciamos o tempo de acordo com as datas e cronogramas oferecidos pela univercidade como base:
 
 ![Alt text](../docs/img/image.png)
@@ -509,37 +511,15 @@ Gerenciamos o tempo de acordo com as datas e cronogramas oferecidos pela univerc
 
 ## Gerenciamento de Equipe
 
-Em "<a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/579"> Gerenciamento de Projeto</a> ", gerenciamos as datas, equipe, e atividades a serem realizadas.
+Em "<a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/738"> Gerenciamento de Projeto</a> ", gerenciamos as datas, equipe, e atividades a serem realizadas.
 
-![Alt text](../docs/img/Github_Project.png)
-
- | Scrum Master  |
- |---------------|
- |● Bruno Selas |
-
-| Equipe de Desenvolvimento|
-|--------------------------|
-| ● Raul Shinaede          |  
-| ● Marco Túlio            |
-| ● Bruno Selas            | 
-          
-
+![WhatsApp Image 2023-11-21 at 15 47 30](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/102563767/5774917b-7627-49b6-be56-78c6c8022869)
 
 
 ## Gestão de Orçamento
 
 O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
 
-| Gasto Estimado                 | Valor                                                                                   |
-|--------------------------------|----------------------------------------------------------------------------------------------------------|
-| Recursos Humanos               |  R$ 20.000,00      |                                                                                 | | UX/UI                          |  R$ 15.000,00      |             
-| Desenvolvimento                |  R$ 92.000,00      |
-| Gestão de Projeto              |  R$ 5.000,00       | 
-| Infraestrutura                 |  R$ 12.000,00      |
-| Hardware                       |  R$ 20.000,00      |
-| Marketing		                    |  R$5.000,00        |
-| Cursos e treinamentos          |  R$ 5.400,00       |
-| Licenças de Softwares          |  R$ 10.000,00      |
-| Hospedagem	                    |  R$2.000,00        |  
-| **Total**                      |  **R$ 186.000,00** |
+![gestao orcamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/102563767/d92b2bf1-9381-4b55-be8c-6535bb9c8348)
+
 
