@@ -503,7 +503,7 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados.
 Conforme mencionado no item anterior, o Asana apresenta o detalhamento de cada sprint, com indicação de colaborar encarregado de cada tarefa e com atalho para comunicação com o mesmo facilitando tanto a gestão da equipe quanto a visualização do status de progressão das tarefas:
 Para este projeto utilizares o espaço do github para gerenciamento de Projetos no estilo Kanban. 
-<a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/579"> Gerenciamento de Projeto</a> 
+<a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/738"> Gerenciamento de Projeto</a> 
 
 ![Captura de tela de 2023-09-09 20-36-46](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/105467049/de946ec5-322c-4fcd-b1be-ecfb1485bd63)
 
