@@ -367,6 +367,17 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
     <td align="center">002</td>
     <td>O projeto deverá ser feito apenas por integrantes do grupo.</td>
   </tr>
+  <tr>
+    <td align="center">003</td>
+    <td>O projeto deverá ser feito apenas com as tecnologias mencionadas em <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/blob/main/docs/05-Arquitetura%20da%20Solu%C3%A7%C3%A3o.md"> Tecnologias Utilizadas</a> .</td>
+  </tr>
+   <tr>
+    <td align="center">004</td>
+    <td>O projeto deve conter ao menos 12 Requistos Funcionais entregues pelos desenvolvedores .</td>
+  </tr>
+   <td align="center">005</td>
+    <td>O projeto deve ser hospedado e apresentado ao final do semestre.</td>
+  </tr>
 </table>
 
 
@@ -505,13 +516,11 @@ Conforme mencionado no item anterior, o Asana apresenta o detalhamento de cada s
 Para este projeto utilizares o espaço do github para gerenciamento de Projetos no estilo Kanban. 
 <a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/738"> Gerenciamento de Projeto</a> 
 
-![Captura de tela de 2023-09-09 20-36-46](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-ingresso-facil/assets/105467049/de946ec5-322c-4fcd-b1be-ecfb1485bd63)
-
-
+![Captura de tela de 2023-09-09 20-36-46](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/102563767/fc68b451-0306-401d-ab3e-480775a89024)
 
 Gerenciamos o tempo de acordo com as datas e cronogramas oferecidos pela univercidade como base:
 
-![Alt text](../docs/img/image.png)
+![Alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/102563767/10cf73e5-ce55-4c59-ac17-308b4ba126de)
 
 
 ## Gerenciamento de Equipe
