@@ -517,7 +517,7 @@ Para este projeto utilizares o espaço do github para gerenciamento de Projetos 
 
 ![Captura de tela de 2023-09-09 20-36-46](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/102563767/fc68b451-0306-401d-ab3e-480775a89024)
 
-Gerenciamos o tempo de acordo com as datas e cronogramas oferecidos pela univercidade como base:
+Gerenciamos o tempo de acordo com as datas e cronogramas oferecidos pela universidade como base:
 
 ![Alt text](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/102563767/10cf73e5-ce55-4c59-ac17-308b4ba126de)
 
