@@ -50,7 +50,7 @@ Seguem demonstradas por meio dos quadros apresentados o levantamento feito das p
   <tr>
    <td width="200" align="center" height="200" rowspan="3"><img alt="Persona 02" src="https://github.com/brunosellas/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/102563767/c89c043b-6741-4d5d-8c3d-7a29fa513d1f"></td>
    <td width="150" align="center">Ocupação</td>
-   <td colspan="3">Arqueólogo e Paleontólog</td>
+   <td colspan="3">Arqueólogo e Paleontólogo</td>
    <tr>
     <td width="150" align="center">Aplicativos</td>
     <td width="210" align="center">Motivações</td>
@@ -69,12 +69,12 @@ Seguem demonstradas por meio dos quadros apresentados o levantamento feito das p
     ●	Bancos digitais<br>
    </td>
    <td>
-    ●	Terminar sua licensiatura.<br>
+    ●	Terminar sua licenciatura.<br>
      <br>
     ●	Encontrar uma forma mais amigavel de organizar seus gastos estudantis .<br>
    </td>
    <td>
-    ●	Dificuldade de conseguir manter o custo da licensiatura.<br>
+    ●	Dificuldade de conseguir manter o custo da licenciatura.<br>
      <br>
     ●	Pagar  muito juros por atrasos de mensalidades.<br>
    </td>
@@ -112,12 +112,12 @@ Seguem demonstradas por meio dos quadros apresentados o levantamento feito das p
     ● Encontrar um meio de centralizar débitos estudantis.<br>
    </td>
    <td>
-    ●	Sempre ter que lidar com as dificuldades em que seus alunos tem para pagr as mesalidades da faculdade.<br>
+    ●	Sempre ter que lidar com as dificuldades em que seus alunos tem para pagar as mensalidades da faculdade.<br>
      <br>
     ●	Sentir falta de algum programa que facilite as taxas e os custos estudantis.<br>
    </td>
    <td>
-    ●	Atuar em sua area de mestrado.<br>
+    ●	Atuar em sua área de mestrado.<br>
    </td>
   </tr>
  </table>
@@ -139,7 +139,7 @@ Seguem demonstradas por meio dos quadros apresentados o levantamento feito das p
   <tr>
    <td>
     ●	Nubank<br>
-    ●	slack<br>
+    ●	Slack<br>
     ●	Jira<br>
     ●	VsCode<br> 
    </td>
@@ -185,8 +185,8 @@ A fim de buscar mais informações sobre os motivos e causas de uso dessas pesso
       </tr>
        <tr>
         <td>Régis Passos</td>
-        <td>Encontrar uma forma mais amigavel de organizar seus gastos estudantis.</td>
-        <td>Terminar sua licensiatura.</td>
+        <td>Encontrar uma forma mais amigável de organizar seus gastos estudantis.</td>
+        <td>Terminar sua licenciatura.</td>
       </tr>
        <tr>
         <td>Danilo Barreto</td>
@@ -199,13 +199,13 @@ A fim de buscar mais informações sobre os motivos e causas de uso dessas pesso
 
 ### Análise da Situação Atual
 
-Percebemos que os processos atuais para a realização de matriculas e atendimento financeiro nas faculdades tem se tornado cada dia mais cansativos e inacessíveis. A lentidão em suas imensas filas de espera para atendimento, dificuldades para lidar com o gerenciamento financeiro da faculdade, desde serviços necessários, como acompanhamento ou vizualização determinado dado financeiro e sistemas sobrecarregados foram os fatores que nos levaram a criação deste projeto. 
+Percebemos que os processos atuais para a realização de matriculas e atendimento financeiro nas faculdades tem se tornado cada dia mais cansativos e inacessíveis. A lentidão em suas imensas filas de espera para atendimento, dificuldades para lidar com o gerenciamento financeiro da faculdade, desde serviços necessários, como acompanhamento ou visualização de determinado dado financeiro e sistemas sobrecarregados foram os fatores que nos levaram a criação deste projeto. 
 
 ### Descrição Geral da Proposta
 
 Temos como objetivo tornar este processo do ingresso do aluno à faculdade mais simples, prático, ágil e seguro possível. Removendo assim, este duradouro e cansativo processo físico e instaurando uma forma mais objetiva, fácil, clara e acessível ao aluno. 
 
-Junto a este objetivo, temos como possíveis melhorias, a visualização de todos os contratos, cláusulas, valores e acesso a créditos mais amigáveis para os alunos e ingressantes de todos os cursos da instituição, pro aluno se focar no mais importa que é aprender e derxar sua marca.
+Junto a este objetivo, temos como possíveis melhorias, a visualização de todos os contratos, cláusulas, valores e acesso a créditos mais amigáveis para os alunos e ingressantes de todos os cursos da instituição, para que o aluno foque no que mais importa, que é aprender e deixar sua marca.
 
 ### Processo – De Matricula ou acompanhamento financeiro (Forma tradicional) - As Is
 <table>
@@ -222,7 +222,7 @@ Junto a este objetivo, temos como possíveis melhorias, a visualização de todo
 </table>
 
 ## Relação Potencialidades e Oportunidades de Melhoria para o Processo de Negócio
-No processo As Is podemos ver que tudo funciona ainda de maneira muito física e demanda de muita estrutura, necessidado de deslocamento do aluno até a unidade escolhida da faculdade e tendo que ser atendido junto de diversos outros estudantes por um número limitado de funcionários, onde no modelo to be tudo é muito mais simplificado, de forma totalmente digitaç, sem filas, sem entraves, sem espera e com muito menos burocracia para se gerir o financeiro de cada aluno da instituição.
+No processo As Is podemos ver que tudo funciona ainda de maneira muito física e demanda de muita estrutura, necessidade de deslocamento do aluno até a unidade escolhida da faculdade e tendo que ser atendido junto de diversos outros estudantes por um número limitado de funcionários, onde no modelo to be tudo é muito mais simplificado, de forma totalmente digital, sem filas, sem entraves, sem espera e com muito menos burocracia para se gerir o financeiro de cada aluno da instituição.
 
 ## Indicadores de Desempenho
 ![Indicadores de desempenho ingresso fácil](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/102563767/e0e5d41e-e91b-4c21-8c5c-77da5c4755cd)
@@ -230,7 +230,7 @@ No processo As Is podemos ver que tudo funciona ainda de maneira muito física e
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
-Para priorizar os requisitos, foi utilizado  a técnica de Escala de três Níveis, para essa técnica foi definido dois aspectos principais: importância e urgência.
+Para priorizar os requisitos, foi utilizado a técnica de Escala de três Níveis, para essa técnica foi definido dois aspectos principais: importância e urgência.
 Assim, forma-se um quadrante, que é usado para obter o nível de prioridade do requisito, como mostrado na figura a seguir:
 
 ![tabela-prioridade-requisitos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/102563767/77666800-d441-472e-a51c-520bed31b037)
@@ -506,12 +506,12 @@ Isso permite rastrear como os requisitos funcionais e não funcionais estão rel
 
 # Gerenciamento de Projeto
 
-De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e se relacionam, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
+De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos, um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e se relacionam, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
 
 ## Gerenciamento de Tempo
 
 O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados.
-Conforme mencionado no item anterior, o Asana apresenta o detalhamento de cada sprint, com indicação de colaborar encarregado de cada tarefa e com atalho para comunicação com o mesmo facilitando tanto a gestão da equipe quanto a visualização do status de progressão das tarefas:
+Conforme mencionado no item anterior, o Asana apresenta o detalhamento de cada sprint, com indicação de colaborar encarregado de cada tarefa e com atalho para comunicação com o mesmo, facilitando tanto a gestão da equipe quanto a visualização do status de progressão das tarefas:
 Para este projeto utilizares o espaço do github para gerenciamento de Projetos no estilo Kanban. 
 <a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/738"> Gerenciamento de Projeto</a> 
 
