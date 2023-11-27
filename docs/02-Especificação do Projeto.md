@@ -388,14 +388,13 @@ O diagrama de caso de uso é uma poderosa ferramenta de modelagem utilizada na e
 
 # Matriz de Rastreabilidade
 
-Nesta matriz, os requisitos funcionais (RF) estão listados na primeira parte, e os requisitos não funcionais (RNF) estão listados na segunda parte. A coluna "Requisito Associado" indica a associação entre os requisitos funcionais e não funcionais, quando aplicável. Por exemplo, os requisitos RNF-003, RNF-005 e RNF-006 estão associados ao requisito funcional RF-007, pois todos estão relacionados à escolha e gestão dos assentos durante a compra de ingressos.
-
+Nesta matriz, os requisitos funcionais (RF) estão listados na primeira parte, e os requisitos não funcionais (RNF) estão listados na segunda parte. A coluna "Requisito Associado" indica a associação entre os requisitos funcionais e não funcionais, quando aplicável.
 Isso permite rastrear como os requisitos funcionais e não funcionais estão relacionados e como eles se complementam no desenvolvimento do sistema.
 
 <table>
   <thead>
     <tr>
-        <th width="100">ID</th>
+        <th width="100">RF-ID</th>
         <th width="800">Descrição do Requisito</th>
         <th width="100">Requisito Associado</th>
     </tr>
@@ -414,12 +413,12 @@ Isso permite rastrear como os requisitos funcionais e não funcionais estão rel
     <tr>
       <td>RF-003</td>
       <td>O Usuário deve poder redefinir a sua senha.</td>
-      <td>RF-001</td>
+      <td>RF-001, RNF-001, RNF-002</td>
     </tr>
     <tr>
       <td>RF-004</td>
       <td>O Sistema deve validar o token do usuário antes de permitir a entrada no sistema.</td>
-      <td>-</td>
+      <td>RF-002</td>
     </tr>
     <tr>
       <td>RF-005</td>
@@ -434,72 +433,72 @@ Isso permite rastrear como os requisitos funcionais e não funcionais estão rel
     <tr>
       <td>RF-007</td>
       <td>O Usuário deve poder filtrar por data as transações em seu extrato.</td>
-      <td>RF-005, RF-006, RF-009</td>
+      <td> RF-006</td>
     </tr>
     <tr>
       <td>RF-008</td>
       <td>O Sistema deve liberar o limite de crédito do usuário após fatura paga.</td>
-      <td>RF-007</td>
+      <td>RF-013</td>
     </tr>
     <tr>
       <td>RF-009</td>
       <td>O Usuário deve poder editar informações básicas do perfil.</td>
-      <td>RF-004, RF-012</td>
+      <td>RF-006</td>
     </tr>
     <tr>
       <td>RF-010</td>
       <td>O Sistema deve verificar o limite do cartão do usuário antes de aprovar uma compra.</td>
-      <td>RF-007</td>
+      <td>RF-012</td>
     </tr>
     <tr>
       <td>RF-011</td>
       <td>O Sistema deve negar a transação caso o usuário não tenha limite.</td>
-      <td>RF-008</td>
+      <td>Rf-010</td>
     </tr>
     <tr>
       <td>RF-012</td>
       <td>O Sistema deve reservar o limite do cartão antes de confirmar a compra.</td>
-      <td>RF-004, RF-006</td>
+      <td>RF-010</td>
     </tr>
     <tr>
       <td>RF-013</td>
       <td>O Usuário deve poder gerar o boleto da fatura do cartão.</td>
-      <td>RF-004, RF-006</td>
+      <td>RF-008</td>
+    </tr>
+     <tr>
+        <th width="100">RNF-ID</th>
+        <th width="800">Descrição do Requisito</th>
+        <th width="100">Requisito Associado</th>
     </tr>
     <tr>
       <td>RNF-001</td>
-      <td>O Sistema deve notificar o usuário 30 min antes de seu filme começar.</td>
+      <td>>O Sistema não deve permitir senhas que não atendam o padrão de complexidade:<br><strong>min. 8 caracteres, 1 letra, 1 número, 1 símbolo entre: @!$ , 1 maiúscula, 1 mínuscula</td>
       <td>RF-007</td>
     </tr>
     <tr>
       <td>RNF-002</td>
-      <td>O Sistema deve listar separadamente filmes sem disponibilidade.</td>
+      <td>O Sistema não deve permitir que o usuário altere a senha para a senha atual durante a recuperação de senha.</td>
       <td>RF-006</td>
     </tr>
     <tr>
       <td>RNF-003</td>
-      <td>O Sistema deve implementar um sistema de fila para a escolha dos assentos, não permitindo mais usuários do que assentos disponíveis.</td>
-      <td>RF-007</td>
+      <td>O Token de validação deve expirar em 8 horas.</td>
+      <td>RF-002</td>
     </tr>
     <tr>
       <td>RNF-004</td>
-      <td>O Sistema deve escalar horizontalmente caso necessário.</td>
+      <td>O Sistema deve estar disponível 24h por dia.</td>
       <td>-</td>
     </tr>
     <tr>
       <td>RNF-005</td>
-      <td>O Sistema deve liberar os assentos caso um usuário desista de seu ingresso.</td>
-      <td>RF-008</td>
+      <td>O Sistema deve retornar os dados do usuário em até 5s.</td>
+      <td>RF-006</td>
     </tr>
     <tr>
       <td>RNF-006</td>
-      <td>O Sistema deve reservar os assentos temporariamente por 5 min após a escolha dos assentos pelo usuário, liberando caso não seja efetuada a compra dos ingressos.</td>
-      <td>RF-007</td>
-    </tr>
-    <tr>
-      <td>RNF-007</td>
-      <td>O Sistema deve sugerir salas alternativas caso não haja disponibilidade na sala atual.</td>
-      <td>RF-009</td>
+      <td>O Tempo de inatividade com o sistema aberto não pode ser maior que 10 min.</td>
+      <td>-</td>
     </tr>
   </tbody>
 </table>
