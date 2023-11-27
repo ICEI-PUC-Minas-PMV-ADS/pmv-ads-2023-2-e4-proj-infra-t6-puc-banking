@@ -7,9 +7,13 @@ As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Test
 Os testes terão como objetivos obter respostas para os seguintes pontos:
 
  1 - O sistema é intuitivo e de fácil utilização?
+
  2 - O sistema é responsivo?
+ 
  3 - Os usuários alcançam seus objetivos em poucos cliques?
+ 
  4 - A navegabilidade é agradável e fluída?
+ 
  5 - Usuários conseguem gerenciar seus gastos/extratos com facilidade?
 
  - As dimensões abordadas neste teste de usabilidade serão as seguintes: Usuários: 08 usuários com idades variando entre 18 e 40 anos com perfil social variado.
