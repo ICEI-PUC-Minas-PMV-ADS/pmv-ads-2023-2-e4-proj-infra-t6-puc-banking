@@ -1,0 +1,12 @@
+﻿global using PUCBanking.Shared.CQRS;
+global using PUCBanking.Identity.API.Configuration;
+global using PUCBanking.Identity.API.Infrastructure;
+global using PUCBanking.Identity.API.Models;
+global using PUCBanking.Identity.API.Commands;
+global using PUCBanking.Identity.API.Builders;
+global using PUCBanking.Shared.Validations;
+global using PUCBanking.Identity.API.Repositories;
+global using PUCBanking.Identity.API.Services;
+global using PUCBanking.Shared.EventBus;
+global using PUCBanking.Shared.EventBus.RabbitMQ;
+global using PUCBanking.Identity.IntegrationEvents;

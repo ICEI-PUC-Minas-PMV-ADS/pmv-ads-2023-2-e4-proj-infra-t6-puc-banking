@@ -1,0 +1,115 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:44300"
+  },
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/v1/gateway/accounts/authenticated",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/v1/accounts/authenticated",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44301
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/v1/gateway/cards/authenticated",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/v1/cards/authenticated",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44302
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/v1/gateway/identity/authenticate",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/v1/identity/authenticate",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44303
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/v1/gateway/identity/register",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/v1/identity/register",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44303
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/v1/gateway/identity/authenticated",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/v1/identity/authenticated",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44303
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/v1/gateway/identity/verify",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/v1/identity/verify",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44303
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/v1/gateway/payments/pay",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/v1/payments/pay",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44304
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/v1/gateway/payments/check",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/v1/payments/check",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44304
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/v1/gateway/payments/transactions",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/v1/payments/transactions",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44304
+        }
+      ]
+    }
+  ]
+}
