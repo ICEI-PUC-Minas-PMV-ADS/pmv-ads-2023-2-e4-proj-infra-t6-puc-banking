@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PucBookStore</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PucBookStore.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="content-container">
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light app-bg-primary border-bottom box-shadow mb-3">
+                <div class="container">
+                    <a class="navbar-brand text-white" href="/">
+                        <img class="col" height="60" src="~/assets/puc-logo-light.png" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end">
+                        @if (ViewContext.HttpContext.Request.Path.Value.Contains("Identity") == false) {
+                            <div class="position-relative d-flex justify-content-end" style="min-width: 50%">
+                                <div class="dropdown-center mx-4">
+                                    <div class="app-basket-wrapper" data-basket-items="@Model.Basket.Items.Count" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="bi bi-basket-fill text-white fs-4 app-basket-icon"></i>
+                                    </div>
+                                    <div class="dropdown-menu container-fluid p-2">
+                                        <h4 class=" fs-5 d-flex justify-content-between align-items-center mb-3">
+                                            <span class="app-color-primary-400">Seu Carrinho</span>
+                                        </h4>
+
+                                        @if (Model.Basket.Items.Count == 0) {
+                                            <p class="text-center">Nenhum item adicionado ao carrinho ainda.</p>
+                                        } else {
+                                            <ul class="list-group mb-3 p-0">
+                                                @foreach (BasketItem basketItem in Model.Basket.Items) {
+
+                                                    <li class="list-group-item d-grid">
+                                                        <div class="container p-0 m-0">
+                                                            <div class="row">
+                                                                <div class="col-md-9">
+                                                                    <h6 class="my-0">@basketItem.Title</h6>
+                                                                    <small class="text-body-secondary">@basketItem.Author @basketItem.Year</small>
+                                                                </div>
+                                                                <div class="col-md-2 d-flex align-items-center">
+                                                                    <span class="app-font-roboto-600 text-body-secondary d-block">R$@basketItem.Price</span>
+                                                                </div>
+                                                                <div class="col-md-1 d-flex align-items-center p-0 px-1">
+                                                                    <a onclick="removeBookOnBasket('@basketItem.BookId', '@Model.Basket.Username')" class="btn app-basket-trash-btn" role="button">
+                                                                        <i class="bi bi-trash fs-5 text-danger"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                }
+                                            </ul>
+                                            <a href="/payment" class="w-100 btn app-btn-primary text-white btn-lg" role="button">Finalizar compra</a>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                        <partial name="_LoginPartial" />
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="container">
+            <main role="main" class="pb-3 h-100 position-relative">
+                @RenderBody()
+            </main>
+        </div>
+
+        <footer class="border-top footer app-bg-primary text-white">
+            <div class="container">
+                &copy; 2023 - PucBookStore
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

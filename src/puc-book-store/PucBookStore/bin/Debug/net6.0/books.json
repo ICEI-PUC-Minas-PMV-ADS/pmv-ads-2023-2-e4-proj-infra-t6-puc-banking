@@ -1,0 +1,93 @@
+[
+    {
+      "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "description": "Até mesmo código ruim pode funcionar. Mas se o código não estiver limpo, ele pode colocar uma organização de desenvolvimento de joelhos. Todos os anos, incontáveis horas e recursos significativos são perdidos por causa de código mal escrito. Mas não precisa ser assim.",
+      "author": "Robert C. Martin",
+      "year": 2010,
+      "price": 200,
+      "previewUrl": "~/assets/book-clean-code-preview.jpg",
+      "downloadUrl": ""
+    },
+    {
+      "title": "Ready Player One",
+      "description": "NO ANO DE 2044, a realidade é um lugar feio. A única vez que o adolescente Wade Watts realmente se sente vivo é quando ele é levado para a utopia virtual conhecida como OASIS. Wade dedicou sua vida a estudar os quebra-cabeças escondidos dentro dos limites digitais deste mundo, quebra-cabeças que são baseados na obsessão de seu criador com a cultura pop de décadas passadas e que prometem enorme poder e fortuna para quem puder desbloqueá-los. Mas quando Wade se depara com a primeira pista, ele se vê acossado por jogadores dispostos a matar para levar esse prêmio final. A corrida continua, e se Wade vai sobreviver, ele terá que vencer – e enfrentar o mundo real que ele sempre esteve tão desesperado para escapar.",
+      "author": "Ernest Cline",
+      "year": 2011,
+      "price": 140,
+      "previewUrl": "~/assets/book-ready-player-one-preview.jpg",
+      "downloadUrl": ""
+    },
+    {
+      "title": "Clean Architecture",
+      "description": "Com base no sucesso dos best-sellers The Clean Coder e Clean Code, o lendário artesão de software Robert C. \"Uncle Bob\" Martin mostra como trazer maior profissionalismo e disciplina para a arquitetura e design de aplicativos. Como acontece com seus outros livros, Martin's Clean Architecture não apenas apresenta múltiplas escolhas e opções, e diz \"use seu melhor julgamento\", ele diz quais escolhas fazer, e por que essas escolhas são críticas para o seu sucesso.",
+      "author": "Robert C. Martin",
+      "year": 2017,
+      "price": 360,
+      "previewUrl": "~/assets/book-clean-architecture-preview.jpg",
+      "downloadUrl": ""
+    },
+    {
+      "title": "Programming Python: Powerful Object-Oriented Programming",
+      "description": "Se você é um novato ou um praticante avançado, você vai encontrar este livro renovado mais do que faz jus à sua reputação. \"ProgrammingPython\", 3ª Edição, ensina o caminho certo para codificar. Ele explica a sintaxe da linguagem Python e as técnicas de programação de forma clara e concisa, com inúmeros exemplos que ilustram o uso correto e expressões idiomáticas comuns. Ao ler este guia abrangente, você aprenderá a aplicar Python em domínios de problemas do mundo real, tais como: Programação GUIscript da InternetProcessamento paraleloGerenciamento de banco de dadosAplicativos",
+      "author": "Mark Lutz",
+      "year": 2006,
+      "price": 220,
+      "previewUrl": "~/assets/book-programming-python-preview.jpg",
+      "downloadUrl": ""
+    },
+    {
+      "title": "Introduction to Algorithms",
+      "description": "Alguns livros sobre algoritmos são rigorosos, mas incompletos; outros cobrem massas de material, mas carecem de rigor. Introdução aos Algoritmos combina de forma única rigor e abrangência. O livro cobre uma ampla gama de algoritmos em profundidade, mas torna seu design e análise acessíveis a todos os níveis de leitores. Cada capítulo é relativamente autossuficiente e pode ser usado como uma unidade de estudo. ",
+      "author": "Thomas H. Cormen",
+      "year": 2009,
+      "price": 250,
+      "previewUrl": "~/assets/book-introduction-to-algorithms-preview.jpg",
+      "downloadUrl": ""
+    },
+    {
+      "title": "Advanced Data Structures Hardback",
+      "description": "Este texto de pós-graduação explica a implementação e análise de estruturas de dados como um tópico especializado em algoritmos aplicados. Ele examina maneiras eficientes de realizar operações de consulta e o histórico de várias estruturas, pois elas estão relacionadas a conceitos básicos de armazenamento de dados....",
+      "author": "Brass",
+      "year": 2008,
+      "price": 125,
+      "previewUrl": "~/assets/book-adv-data-structures-hardback-preview.jpg",
+      "downloadUrl": ""
+    },
+    {
+      "title": "Think Data Structures: Algorithms and Information Retrieval in Java",
+      "description": "Se você é um estudante de ciência da computação ou um desenvolvedor de software que se prepara para entrevistas técnicas, este livro prático irá ajudá-lo a aprender e revisar algumas das ideias mais importantes em engenharia de software - estruturas de dados e algoritmos - de uma maneira mais clara, concisa e envolvente do que outros materiais.",
+      "author": "Allen B. Downey",
+      "year": 2017,
+      "price": 240,
+      "previewUrl": "~/assets/book-think-data-structures-preview.jpg",
+      "downloadUrl": ""
+    },
+    {
+      "title": "The Ancient Science of Mantras_ Wisdom of the Sages",
+      "description": "Em uma tentativa nunca antes, desviando-se da antiga tradição do segredo guru-discípulo, o asceta do Himalaia e autor best-seller Om Swami expõe todos os fundamentos e fundamentos da invocação dos mantras atemporais para a realização material e espiritual. Baseando-se em suas décadas de experiências em primeira mão e prática intensa no caminho do mantra sadhana, com sua simplicidade e humor característicos.",
+      "author": "Om Swami",
+      "year": 2017,
+      "price": 110,
+      "previewUrl": "~/assets/book-the-ancient-science-of-mantras-preview.jpg",
+      "downloadUrl": ""
+    },
+    {
+      "title": "The Mafia manager : a guide to the corporate machiavelli",
+      "description": "O conglomerado mais antigo e organizado do mundo agora revela técnicas de gestão que todos podem usar. Ao contrário de outros guias de negócios, The Mafia Manager evita a verborragia teórica para apresentar a filosofia de liderança que fundou e capitaneou \"The Silent Empire\" através de séculos de expansão e sucesso. ",
+      "author": "V.",
+      "year": 1996,
+      "price": 70,
+      "previewUrl": "~/assets/book-the-mafia-manager-preview.jpg",
+      "downloadUrl": ""
+    },
+    {
+      "title": "Practical Natural Language Processing",
+      "description": "Muitos livros e cursos abordam problemas de processamento de linguagem natural (PNL) com casos de uso de brinquedos e conjuntos de dados bem definidos. Mas se você quiser criar, iterar e dimensionar sistemas de PNL em um ambiente de negócios e adaptá-los para verticais específicas do setor, este é o seu guia. Engenheiros de software e cientistas de dados aprenderão a navegar no labirinto de opções disponíveis em cada etapa da jornada.",
+      "author": "Sowmya Vajjala Bodhisattwa Majumder Anuj Gupta Harshit Surana",
+      "year": 2020,
+      "price": 200,
+      "previewUrl": "~/assets/book-practical-natural-language-processing-preview.jpg",
+      "downloadUrl": ""
+    }
+]
+

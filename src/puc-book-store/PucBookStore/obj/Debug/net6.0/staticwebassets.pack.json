@@ -1,0 +1,337 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PucBookStore.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PucBookStore.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\assets\\banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\assets\\book-adv-data-structures-hardback-preview.jpg",
+      "PackagePath": "staticwebassets\\assets\\book-adv-data-structures-hardback-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\assets\\book-clean-architecture-preview.jpg",
+      "PackagePath": "staticwebassets\\assets\\book-clean-architecture-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\assets\\book-clean-code-preview.jpg",
+      "PackagePath": "staticwebassets\\assets\\book-clean-code-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\assets\\book-introduction-to-algorithms-preview.jpg",
+      "PackagePath": "staticwebassets\\assets\\book-introduction-to-algorithms-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\assets\\book-practical-natural-language-processing-preview.jpg",
+      "PackagePath": "staticwebassets\\assets\\book-practical-natural-language-processing-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\assets\\book-programming-python-preview.jpg",
+      "PackagePath": "staticwebassets\\assets\\book-programming-python-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\assets\\book-ready-player-one-preview.jpg",
+      "PackagePath": "staticwebassets\\assets\\book-ready-player-one-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\assets\\book-the-ancient-science-of-mantras-preview.jpg",
+      "PackagePath": "staticwebassets\\assets\\book-the-ancient-science-of-mantras-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\assets\\book-the-mafia-manager-preview.jpg",
+      "PackagePath": "staticwebassets\\assets\\book-the-mafia-manager-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\assets\\book-think-data-structures-preview.jpg",
+      "PackagePath": "staticwebassets\\assets\\book-think-data-structures-preview.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\assets\\credit-card-illustration.svg",
+      "PackagePath": "staticwebassets\\assets\\credit-card-illustration.svg"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\assets\\login-illustration.svg",
+      "PackagePath": "staticwebassets\\assets\\login-illustration.svg"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\assets\\pay-attention-illustration.svg",
+      "PackagePath": "staticwebassets\\assets\\pay-attention-illustration.svg"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\assets\\processing-illustration.svg",
+      "PackagePath": "staticwebassets\\assets\\processing-illustration.svg"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\assets\\puc-logo-light.png",
+      "PackagePath": "staticwebassets\\assets\\puc-logo-light.png"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\assets\\registration-illustration.svg",
+      "PackagePath": "staticwebassets\\assets\\registration-illustration.svg"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\assets\\signup-illustration.svg",
+      "PackagePath": "staticwebassets\\assets\\signup-illustration.svg"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rshin\\Desktop\\Dev\\codes\\pucminas\\puc-banking-store\\PucBookStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.PucBookStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.PucBookStore.props",
+      "PackagePath": "build\\PucBookStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.PucBookStore.props",
+      "PackagePath": "buildMultiTargeting\\PucBookStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.PucBookStore.props",
+      "PackagePath": "buildTransitive\\PucBookStore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
