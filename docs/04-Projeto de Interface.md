@@ -20,7 +20,7 @@ Um wireframe é uma representação visual básica e esquemática de um design d
 
 ![PUCBanking (1)-1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/82043220/2a319186-0c8c-4955-9127-721d6f32a126)
 
-para uma melhor visualização do design proposto, foi desenvolvido o design de mais alto nível da tela inicial, levando em consideração as dimensões de telas para Desktop, Notebook, Tablet e Mobile.
+Para uma melhor visualização do design proposto, foi desenvolvido o design de mais alto nível da tela inicial, levando em consideração as dimensões de telas para Desktop, Notebook, Tablet e Mobile.
 Toda as demais telas seram baseadas na identidade visual da página de principal.
  
 ![PUCBanking (2)-3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/assets/82043220/ec6aad38-2cc6-478f-bb0d-156ad0deca7b)
