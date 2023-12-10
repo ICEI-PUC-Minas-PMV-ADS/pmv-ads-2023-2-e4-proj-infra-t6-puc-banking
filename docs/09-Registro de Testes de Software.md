@@ -2,7 +2,7 @@
 
 O registro de testes de software é uma prática essencial no desenvolvimento de sistemas, visando documentar e rastrear todas as atividades relacionadas aos testes realizados. Por meio desse registro, é possível registrar detalhes sobre os casos de teste, os resultados obtidos, as falhas identificadas e as ações corretivas tomadas.
 
-#CT-07- Acesso a página "Home e Cadastro"
+#CT-01- Acesso a página "Home e Cadastro"
 
 <tr>Objetivo principal deste teste é: Permitir que o usuário crie uma conta no aplicativo.</tr>
 
