@@ -1,47 +1,122 @@
-import { View, TextInput, Image, TouchableOpacity, Text, SafeAreaView } from "react-native";
 import React from "react";
+import {
+    Image,
+    SafeAreaView,
+    StyleSheet,
+    Text,
+    TouchableOpacity
+} from "react-native";
+import { Input, FormControl, WarningOutlineIcon, Pressable, Icon, Button, Flex } from 'native-base';
+import { MaterialIcons } from "@expo/vector-icons";
 
-export default function CadastrePage() {
-  return (
-    <SafeAreaView style={{ flex: 1, justifyContent: 'center', }}>
-      <View style={{ paddingHorizontal: 25, }}>
+const illustration = require('../../assets/register-illustration.webp');
 
-        <View style={{ alignItems: 'center' }}>
-          <Image source={require('../../assets/register-foto.webp')} style={{ height: 300, width: 300, }} />
-        </View>
+export default function CadastrePage({ navigation }) {
 
-        <Text style={{ fontFamily: 'Roboto', fontSize: 28, fontWeight: 500, color: '#333', marginBottom: 30, }} >Vamos criar sua conta</Text>
+    const [showPass, setShowPass] = React.useState(false);
+    const [name, setName] = React.useState(null);
+    const [email, setEmail] = React.useState(null);
+    const [password, setPassword] = React.useState(null);
+    const [isInvalid, setIsInvalid] = React.useState(false);
+    const [errorMessage, setErrorMessage] = React.useState(null);
+    const [waitingResponse, setWaitingResponse] = React.useState(false);
 
-        <View style={{ flexDirection: 'row', borderBottomColor: '#ccc', borderBottomWidth: 1, paddingBottom: 8, marginBottom: 25, }}>
-          <TextInput placeholder="E-mail" style={{ flex: 1, paddingVertical: 0, }} keyboardType="email-adress"></TextInput>
-        </View>
+    function handleNameInput(input) {
+        setName(input);
+    }
 
-        <View style={{ flexDirection: 'row', borderBottomColor: '#ccc', borderBottomWidth: 1, paddingBottom: 8, marginBottom: 25, }}>
-          <TextInput placeholder="Senha" style={{ flex: 1, paddingVertical: 0, }} secureTextEntry={true}></TextInput>
-        </View>
+    function handleEmailInput(input) {
+        setIsInvalid(false);
+        setEmail(input);
+    }
 
-        <View style={{ flexDirection: 'row', borderBottomColor: '#ccc', borderBottomWidth: 1, paddingBottom: 8, marginBottom: 25, }}>
-          <TextInput placeholder="Confirme a Senha" style={{ flex: 1, paddingVertical: 0, }} secureTextEntry={true}></TextInput>
-        </View>
+    function handlePasswordInput(input) {
+        setIsInvalid(false);
+        setPassword(input);
+    }
 
-        <View style={{ flexDirection: 'row', borderBottomColor: '#ccc', borderBottomWidth: 1, paddingBottom: 8, marginBottom: 25, }}>
-          <TextInput placeholder="Nome completo" style={{ flex: 1, paddingVertical: 0, }} keyboardType="email-adress"></TextInput>
-        </View>
+    function handleRePasswordInput(input) {
+        setIsInvalid(false);
 
-        <View style={{ flexDirection: 'row', borderBottomColor: '#ccc', borderBottomWidth: 1, paddingBottom: 8, marginBottom: 25, }}>
-          <TextInput placeholder="Data de Nascimento" style={{ flex: 1, paddingVertical: 0, }} keyboardType="numeric"></TextInput>
-        </View>
+        if (input !== password) {
+            setIsInvalid(true);
+            setErrorMessage('As senhas não são iguais.');
+        }
+    }
 
-        <TouchableOpacity style={{ backgroundColor: '#AD40AF', padding: 20, borderRadius: 10, marginBottom: 30, }}><Text style={{ textAlign: 'center', fontWeight: '700', fontSize: 16, color: '#fff', }}>Criar conta</Text></TouchableOpacity>
+    function handleGoToLogin() {
+        navigation.navigate('Login');
+    }
 
-        <View style={{ flexDirection: 'row', justifyContent: 'center', marginBottom: 30, }}>
-          <Text>Já possui Conta?</Text>
-          <TouchableOpacity><Text style={{ color: '#AD40AF', fontWeight: '700', }}> Faça Login</Text></TouchableOpacity>
-        </View>
-
-      </View>
-    </SafeAreaView>
-
-  )
+    return (
+        <SafeAreaView style={styles.mainContainer}>
+            <Image style={styles.illustration} source={illustration} />
+            <Text style={styles.title}>Vamos criar sua conta</Text>
+            <FormControl isInvalid={isInvalid} style={styles.form}>
+                <Input variant="underlined" style={styles.input} _focus={styles.inputFocus} placeholder="Nome Completo" mb={3} onChangeText={handleNameInput} />
+                <Input variant="underlined" style={styles.input} _focus={styles.inputFocus} placeholder="Email" mb={3} onChangeText={handleEmailInput} />
+                <Input variant="underlined" style={styles.input} _focus={styles.inputFocus} placeholder="Password" mb={3} onChangeText={handlePasswordInput} type={showPass ? "text" : "password"} InputRightElement={
+                    <Pressable onPress={function () { setShowPass(!showPass) }}>
+                        <Icon as={<MaterialIcons name={showPass ? "visibility" : "visibility-off"} />} size={5} mr='2' color='muted.400' />
+                    </Pressable>
+                } />
+                <Input variant="underlined" style={styles.input} _focus={styles.inputFocus} placeholder="Re-Password" mb={3} onChangeText={handleRePasswordInput} type={showPass ? "text" : "password"} InputRightElement={
+                    <Pressable onPress={function () { setShowPass(!showPass) }}>
+                        <Icon as={<MaterialIcons name={showPass ? "visibility" : "visibility-off"} />} size={5} mr='2' color='muted.400' />
+                    </Pressable>
+                } />
+                <FormControl.ErrorMessage leftIcon={<WarningOutlineIcon size='xs' />}>{errorMessage}</FormControl.ErrorMessage>
+            </FormControl>
+            <Button style={styles.button}>Criar conta</Button>
+            <Flex direction="row" alignItems='center' justifyContent='center' pr='3' pl='3' mt={5}>
+                <Text>Já possui conta?</Text>
+                <TouchableOpacity><Text onPress={handleGoToLogin} style={styles.loginLink}> Login</Text></TouchableOpacity>
+            </Flex>
+        </SafeAreaView>
+    )
 }
 
+const styles = StyleSheet.create({
+    mainContainer: {
+        height: '100%',
+        width: '100%',
+        flex: 1,
+        flexDirection: 'column',
+        justifyContent: 'flex-start',
+        alignItems: 'center'
+    },
+    illustration: {
+        marginTop: 50,
+        maxWidth: 300,
+        height: 300
+    },
+    title: {
+        textAlign: 'left',
+        fontSize: 28,
+        fontWeight: '500',
+        color: '#333',
+        width: '100%',
+        marginLeft: 50
+    },
+    form: {
+        width: '85%',
+        marginTop: 20
+    },
+    input: {
+        color: '#333'
+    },
+    inputFocus: {
+        borderColor: '#7076F4',
+        selectionColor: "#7076F4",
+        background: "#fca5a5"
+    },
+    button: {
+        marginTop: 20,
+        backgroundColor: '#969BF7',
+        width: '85%'
+    },
+    loginLink: {
+        fontWeight: '700',
+        color: '#7076F4',
+    }
+});
