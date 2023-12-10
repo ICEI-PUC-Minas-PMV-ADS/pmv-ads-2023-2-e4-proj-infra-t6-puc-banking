@@ -1,12 +1,32 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
+O registro de testes de software é uma prática essencial no desenvolvimento de sistemas, visando documentar e rastrear todas as atividades relacionadas aos testes realizados. Por meio desse registro, é possível registrar detalhes sobre os casos de teste, os resultados obtidos, as falhas identificadas e as ações corretivas tomadas.
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+#CT-07- Acesso a página "Home e Cadastro"
+
+<tr>Objetivo principal deste teste é: Permitir que o usuário crie uma conta no aplicativo.</tr>
+
+<table>
+  <tr>
+    <td>Cadastro passo 1</td>
+    <td>Cadastro passo 2</td>
+    <td>Cadastro passo 3</td>
+  </tr>
+  <tr>
+    <td>!(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/blob/ca34d3fe765078d931b894251ae44eedd78fca23/docs/img/RealizandoCadastro.jpeg)</td>
+    <td>(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/blob/ca34d3fe765078d931b894251ae44eedd78fca23/docs/img/Senhas.jpeg)</td>
+    <td>(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/blob/ca34d3fe765078d931b894251ae44eedd78fca23/docs/img/FimCadastro.jpeg)</td>
+  </tr>
+</table>
+
+## Critério de Exito: Sucesso 
+
+Usuário foi capaz de cadastrar uma conta no aplicativo.
+
+## Fluxo Alternativo
+
+Esse caso de teste não possui fluxo alternativo. 
 
 ## Avaliação
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+Os testes de software mostraram que os requisitos Acima Testados foram atendidos, funcionando como planejado e comprovando a efetivididade e integridade do sistema de acordo com plano de seu desenvolvimento.
