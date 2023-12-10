@@ -9,7 +9,7 @@ Segue abaixo os testes funcionais a serem realizados no aplicativo:
 <table>
   <tr>
     <td align="center" width="100">Caso de Teste</td>
-    <td align="center" width="800">CT-01 - Acesso a página "Home e Cadastro</td>
+    <td align="center" width="800">CT-01 - Acesso a página "Home e Cadastro"</td>
   </tr>
   <tr>
     <td align="center">Requisito Associado</td>
