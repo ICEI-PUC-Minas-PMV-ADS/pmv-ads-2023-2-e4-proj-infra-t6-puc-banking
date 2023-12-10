@@ -57,11 +57,7 @@ Os testes terão como objetivos obter respostas para os seguintes pontos:
   </tr>
   <tr>
     <td align="center"></td>
-    <td align="left">6) Gerar boleto da fatura</td>
-  </tr>
-  <tr>
-    <td align="center"></td>
-    <td align="left">7) Efetuar "LOGOUT" </td>
+    <td align="left">6) Efetuar "LOGOUT" </td>
   </tr>
 </table>
 
