@@ -13,9 +13,9 @@ O registro de testes de software é uma prática essencial no desenvolvimento de
     <td>Cadastro passo 3</td>
   </tr>
   <tr>
-    <td> "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/blob/ca34d3fe765078d931b894251ae44eedd78fca23/docs/img/RealizandoCadastro.jpeg"></td>
-    <td>"https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/blob/ca34d3fe765078d931b894251ae44eedd78fca23/docs/img/Senhas.jpeg"</td>
-    <td> width="200" align="center" height="200" rowspan="3"><src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/blob/ca34d3fe765078d931b894251ae44eedd78fca23/docs/img/FimCadastro.jpeg"</td>
+    <td> <img src='https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/blob/ca34d3fe765078d931b894251ae44eedd78fca23/docs/img/RealizandoCadastro.jpeg'/></td>
+    <td><img src='https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/blob/ca34d3fe765078d931b894251ae44eedd78fca23/docs/img/Senhas.jpeg'/</td>
+    <td><img src='https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t6-puc-banking/blob/ca34d3fe765078d931b894251ae44eedd78fca23/docs/img/FimCadastro.jpeg'/</td>
   </tr>
 </table>
 
